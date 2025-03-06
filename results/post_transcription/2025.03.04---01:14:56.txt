@@ -1,0 +1,45 @@
+PARAMS FOR VAD:
+audio_waveform: [0. 0. 0. ... 0. 0. 0.]
+sr: 16000
+window_length: 1.5
+shift_length: 0.1
+onset_thresh: 0.5
+offset_thresh: 0.3
+pad_onset: 0.2
+pad_offset: 0.2
+min_speech_dur: 0.5
+
+VAD SEGMENTS: [(0.6000000000000001, 4.6000000000000005), (5.1, 103.3)]
+
+PARAMS FOR WHISPER:
+BATCH SIZE: 8; BEAM_SIZE: 5
+
+TRANSCRIPT:
+
+ Hello, Amy. I'm Dr. Jones. How are you doing today? I'm okay, but it hurts when I go to the bathroom when I pee. That's called dysuria, and it's pretty common. When did this start? Two days ago. Have you taken anything for it? I tried some Tylenol and drank cranberry juice. It helped. Have you had this before? Yes. I had this several years ago before you were my doctor. Do you remember about what year that was? I think it was 2018. Okay. How was it treated back then? The clinic gave me an antibiotic Bactrim and that made it better. Great. Is there any chance that you're pregnant? I use protection, but there's always a chance, I guess. And so when was your last menstrual period? Three weeks ago. Okay. I think we should check a pregnancy test just to be sure. Have you had any vomiting, nausea, abdominal pain, back pain, shortness of breath, blood in your urine, constipation, diarrhea, or skin rashes? Yes, I've had abdominal pain down low. And any vaginal discharge or drainage or painful intercourse? No. Okay. Do you have any other problems that you'd like me to address? No. Okay. I would like to do a simple physical exam and have you give us a urine sample. I will order both a pregnancy test and a urine test and that we will do now and determine treatment when we have the results. Does that sound okay to you?
+
+Hello, Amy. I'm Dr. Jones. How are you doing today?
+I'm okay, but it hurts when I go to the
+bathroom when I pee. That's called dysuria, and it's pretty
+common. When did this start? Two days ago. Have you
+taken anything for it? I tried some Tylenol and drank
+cranberry juice. It helped. Have you had this before? Yes.
+I had this several years ago before you were my
+doctor. Do you remember about what year that was? I
+think it was 2018. Okay. How was it treated back
+then? The clinic gave me an antibiotic Bactrim and that
+made it better. Great. Is there any chance that you're
+pregnant? I use protection, but there's always a chance, I
+guess. And so when was your last menstrual period? Three
+weeks ago. Okay. I think we should check a pregnancy
+test just to be sure. Have you had any vomiting,
+nausea, abdominal pain, back pain, shortness of breath, blood in
+your urine, constipation, diarrhea, or skin rashes? Yes, I've had
+abdominal pain down low. And any vaginal discharge or drainage
+or painful intercourse? No. Okay. Do you have any other
+problems that you'd like me to address? No. Okay. I
+would like to do a simple physical exam and have
+you give us a urine sample. I will order both
+a pregnancy test and a urine test and that we
+will do now and determine treatment when we have the
+results. Does that sound okay to you?

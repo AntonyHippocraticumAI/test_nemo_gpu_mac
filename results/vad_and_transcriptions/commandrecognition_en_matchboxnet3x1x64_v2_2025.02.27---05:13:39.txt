@@ -1,0 +1,9 @@
+﻿--------------------------------------------------------
+
+BATCH MODE: TURN OFF; VAD WORK TIME - 4.64...TESTED ON MAC1 PRO
+
+VAD SEGMENTS:
+
+TRANSCRIPTIONS:
+	
+

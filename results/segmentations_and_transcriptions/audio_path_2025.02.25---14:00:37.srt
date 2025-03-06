@@ -1,0 +1,136 @@
+﻿1
+00:00:02,140 --> 00:00:02,413
+Speaker 0: Hello, Amy.
+
+2
+00:00:02,679 --> 00:00:03,002
+Speaker 0: I'm Dr.
+
+3
+00:00:03,059 --> 00:00:03,325
+Speaker 0: Jones.
+
+4
+00:00:03,363 --> 00:00:04,046
+Speaker 0: How are you doing today?
+
+5
+00:00:06,270 --> 00:00:08,626
+Speaker 1: I'm okay, but it hurts when I go to the bathroom when I pee.
+
+6
+00:00:10,146 --> 00:00:11,932
+Speaker 0: That's called dysuria, and it's pretty common.
+
+7
+00:00:12,540 --> 00:00:13,224
+Speaker 0: When did this start?
+
+8
+00:00:14,326 --> 00:00:14,820
+Speaker 1: Two days ago.
+
+9
+00:00:16,187 --> 00:00:17,252
+Speaker 0: Have you taken anything for it?
+
+10
+00:00:18,183 --> 00:00:20,501
+Speaker 1: I tried some Tylenol and drank cranberry juice.
+
+11
+00:00:20,615 --> 00:00:22,306
+Speaker 1: It helped.
+
+12
+00:00:22,363 --> 00:00:23,180
+Speaker 0: Have you had this before?
+
+13
+00:00:24,225 --> 00:00:27,379
+Speaker 1: Yes, I had this several years ago before you were my doctor.
+
+14
+00:00:28,633 --> 00:00:33,896
+Speaker 1: Do you remember about what year that was?
+
+15
+00:00:35,245 --> 00:00:38,513
+Speaker 0: I think it was... Okay.
+
+16
+00:00:39,026 --> 00:00:40,090
+Speaker 1: How was it treated back then?
+
+17
+00:00:41,135 --> 00:00:44,992
+Speaker 0: The clinic gave me an antibiotic, Bactrim, and that made it better.
+
+18
+00:00:45,961 --> 00:00:46,208
+Speaker 0: Great.
+
+19
+00:00:46,987 --> 00:00:48,184
+Speaker 1: Is there any chance that you're pregnant?
+
+20
+00:00:49,324 --> 00:00:51,566
+Speaker 0: I use protection, but there's always a chance, I guess.
+
+21
+00:00:52,725 --> 00:00:54,245
+Speaker 0: And so when was your last menstrual period?
+
+22
+00:00:55,328 --> 00:00:55,841
+Speaker 0: Three weeks ago.
+
+23
+00:00:57,285 --> 00:00:57,475
+Speaker 0: Okay.
+
+24
+00:00:57,551 --> 00:00:59,869
+Speaker 0: I think we should check her pregnancy test just to be sure.
+
+25
+00:01:05,816 --> 00:01:16,969
+Speaker 0: Have you had any vomiting, nausea, abdominal pain, back pain, shortness of breath, blood in your urine, constipation, diarrhea, or skin rashes?
+
+26
+00:01:17,007 --> 00:01:22,156
+Speaker 0: Yes, I've had abdominal pain down low.
+
+27
+00:01:22,194 --> 00:01:24,911
+Speaker 0: And any vaginal discharge or drainage or painful intercourse?
+
+28
+00:01:24,987 --> 00:01:25,025
+Speaker 0: No.
+
+29
+00:01:26,678 --> 00:01:26,811
+Speaker 1: Okay.
+
+30
+00:01:26,868 --> 00:01:29,053
+Speaker 0: Do you have any other problems that you'd like me to address?
+
+31
+00:01:34,221 --> 00:01:34,259
+Speaker 0: No.
+
+32
+00:01:35,703 --> 00:01:39,351
+Speaker 0: I would like to do a simple physical exam and have you give us a urine sample.
+
+33
+00:01:40,377 --> 00:01:47,046
+Speaker 0: I will order both a pregnancy test and a urine test and that we will do now and determine treatment when we have the results.
+
+34
+00:01:47,103 --> 00:01:54,266
+Speaker 0: Does that sound okay to you?
+

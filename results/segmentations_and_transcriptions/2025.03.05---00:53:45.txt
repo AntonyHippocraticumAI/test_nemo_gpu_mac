@@ -1,0 +1,26 @@
+FUNCS:
+graph_based_speaker_matching
+Graph matching of speakers.
+
+speaker_1 [2.02-4.34]: Hello, Amy. I'm Dr. Jones. How are you doing today?
+speaker_0 [6.50-9.14]: I'm okay, but it hurts when I go to the bathroom when I pee.
+speaker_1 [10.66-13.94]: That's called dysuria and it's pretty common. When did this start?
+speaker_0 [15.06-21.54]: Two days ago. Have you taken anything for it? I tried some Tylenol and drank cranberry juice
+speaker_0 [21.54-31.62]: to help. Have you had this before? Yes, I had this several years ago before you were my doctor.
+speaker_1 [29.81-33.03]: Do you remember about what year that was?
+speaker_0 [33.03-35.09]: I think it was 2018.
+UNK [35.09-36.09]: Okay.
+speaker_1 [36.09-39.39]: How was it treated back then?
+speaker_0 [39.39-44.05]: The clinic gave me an antibiotic Bactrim and that made it better.
+speaker_1 [44.05-47.59]: Great. Is there any chance that you're pregnant?
+speaker_0 [47.59-51.77]: I use protection, but there's always a chance, I guess.
+speaker_1 [51.77-54.39]: So when was your last menstrual period?
+speaker_0 [54.39-55.39]: Three weeks ago.
+speaker_1 [55.39-56.39]: Okay.
+speaker_1 [60.85-73.07]: Have you had any vomiting, nausea, abdominal pain, back pain, shortness of breath, blood in your urine, constipation, diarrhea, or skin rashes?
+speaker_0 [73.81-77.15]: Yes, I've had abdominal pain down low.
+speaker_1 [78.49-81.37]: And any vaginal discharge or drainage or painful intercourse?
+speaker_0 [81.75-82.03]: No.
+speaker_1 [83.23-85.79]: Okay. Do you have any other problems that you'd like me to address?
+speaker_0 [86.57-86.83]: No.
+speaker_1 [88.43-101.95]: I would like to do a simple physical exam and have you give us a urine sample. I will order both a pregnancy test and a urine test, and that we will do now and determine treatment when we have the results. Does that sound okay to you?

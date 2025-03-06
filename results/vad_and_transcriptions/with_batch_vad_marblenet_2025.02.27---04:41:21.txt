@@ -1,0 +1,51 @@
+﻿--------------------------------------------------------
+
+BATCH MODE: TURN ON; VAD WORK TIME - 6.26...TESTED ON MAC1 PRO
+
+VAD SEGMENTS:
+	0: (1.4000000000000001, 4.680000000000001)
+	1: (5.8, 10.2)
+	2: (9.96, 14.2)
+	3: (13.88, 16.12)
+	4: (16.2, 22.279999999999998)
+	5: (22.6, 29.16)
+	6: (29.32, 35.160000000000004)
+	7: (35.48, 43.720000000000006)
+	8: (43.64, 45.0)
+	9: (44.68, 50.6)
+	10: (50.68, 55.64)
+	11: (55.48, 60.28)
+	12: (59.959999999999994, 66.2)
+	13: (66.11999999999999, 77.8)
+	14: (77.8, 86.12)
+	15: (85.88, 87.16)
+	16: (87.39999999999999, 92.92)
+	17: (92.75999999999999, 103.48)
+
+TRANSCRIPTIONS:
+	Hello, Amy. I'm Dr. Jones. How are you doing today?
+I'm okay, but it hurts when I go to the
+bathroom when I pee. That's called dysuria, and it's pretty
+common. When did this start? Two days ago. Have you
+taken anything for it? I tried some Tylenol and drank
+cranberry juice. It helped. Have you had this before? Yes,
+I had this several years ago before you were my
+doctor. Do you remember about what year that was? I
+think it was 2018. Okay. How was it treated back
+then? The clinic gave me an antibiotic Bactrom and that
+made it better. Great. Is there any chance that you're
+pregnant? I use protection, but there's always a chance, I
+guess. And so when was your last menstrual period? Three
+weeks ago. Okay. I think we should check a pregnancy
+test just to be sure. Have you had any vomiting,
+nausea, abdominal pain, back pain, shortness of breath, blood in
+your urine, constipation, diarrhea, or skin rashes? Yes, I've had
+abdominal pain down low. And any vaginal discharge or drainage
+or painful intercourse? No. Okay. Do you have any other
+problems that you'd like me to address? No. Okay. I
+would like to do a simple physical exam and have
+you give us a urine sample. I will order both
+a pregnancy test and a urine test and that we
+will do now and determine treatment when we have the
+results. Does that sound okay to you?
+

@@ -1,0 +1,36 @@
+﻿--------------------------------------------------------
+
+BATCH MODE: TURN OFF; VAD WORK TIME - 7.68...TESTED ON MAC1 PRO
+
+VAD SEGMENTS:
+	0: (2.1999999999999997, 3.3200000000000003)
+	1: (13.08, 14.2)
+	2: (20.68, 21.24)
+	3: (37.08, 37.64)
+	4: (55.959999999999994, 56.52)
+	5: (58.199999999999996, 58.84)
+	6: (62.279999999999994, 63.400000000000006)
+	7: (66.67999999999999, 67.72)
+	8: (78.92, 79.96000000000001)
+	9: (80.75999999999999, 81.32000000000001)
+	10: (84.67999999999999, 85.72)
+	11: (88.67999999999999, 89.32000000000001)
+	12: (94.28, 94.84)
+	13: (95.24, 95.8)
+
+TRANSCRIPTIONS:
+	Although, I mean, I'm Dr. Jeff. When did this start?
+In primary. How was it treated? Okay. Just to be
+sure. Nausea, shortness of breath, vaginal discharge, full intercourse. What
+would you like me to address? I would like to
+deal with pregnancy in the urine.
+
+	0:  Although, I mean, I'm Dr. Jeff.
+	1:  When did this start?
+	2:  In primary.
+	3:  How was it treated?
+	4:  Okay.
+	5:  Just to be sure.
+	6:  Nausea, shortness of breath, vaginal discharge, full intercourse.
+	7:  What would you like me to address?
+	8:  I would like to deal with pregnancy in the urine.

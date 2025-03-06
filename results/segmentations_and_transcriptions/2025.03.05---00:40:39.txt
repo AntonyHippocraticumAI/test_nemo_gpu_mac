@@ -1,0 +1,30 @@
+FUNCS:
+probabilistic_speaker_matching
+Probabilistic matching of speakers
+
+speaker_1 [0.00-4.60]: Hello, Amy, I'm Dr. Jones. How are you doing today?
+speaker_0 [4.60-10.86]: I'm okay, but it hurts when I go to the bathroom when I pee.
+speaker_1 [10.86-13.34]: That's called dysuria and it's pretty common.
+speaker_0 [13.34-15.34]: When did this start? Two days ago.
+speaker_1 [15.34-18.34]: Have you taken anything for it?
+speaker_0 [18.34-22.80]: I tried some Tylenol and drank cranberry juice, it helped.
+speaker_1 [22.80-24.92]: Have you had this before?
+speaker_0 [24.92-29.84]: Yes, I had this several years ago before you were my doctor.
+speaker_1 [30.00-33.02]: Do you remember about what year that was?
+speaker_0 [33.02-35.10]: I think it was 2018.
+speaker_1 [35.10-39.40]: Okay. How was it treated back then?
+speaker_0 [39.40-44.24]: The clinic gave me an antibiotic Bactrom and that made it better.
+speaker_1 [44.24-47.58]: Great. Is there any chance that you're pregnant?
+speaker_0 [47.58-51.76]: I use protection, but there's always a chance, I guess.
+speaker_1 [51.76-54.40]: So when was your last menstrual period?
+speaker_0 [54.40-56.40]: Three weeks ago. Okay.
+speaker_1 [56.40-59.40]: I think we should check a pregnancy test just to be sure.
+speaker_0 [59.40-60.00]: Okay.
+speaker_1 [60.00-73.50]: Have you had any vomiting, nausea, abdominal pain, back pain, shortness of breath, blood in your urine, constipation, diarrhea, or skin rashes?
+speaker_0 [73.50-78.78]: Yes, I've had abdominal pain down low.
+speaker_1 [78.78-81.68]: Any vaginal discharge or drainage or painful intercourse?
+speaker_0 [81.68-83.68]: No. Okay.
+speaker_1 [83.68-87.10]: Do you have any other problems that you'd like me to address?
+speaker_0 [87.10-89.10]: No. Okay.
+speaker_1 [89.10-98.94]: I'd like you to do a simple physical exam and have you give us a urine sample. I will order both a pregnancy test and a urine test and that we will do now and determine
+speaker_0 [98.94-104.48]: treatment when we have the results. Does that sound okay to you? Okay. Thanks.

@@ -1,0 +1,6 @@
+FUNCS:
+probabilistic_speaker_matching
+Probabilistic matching of speakers
+
+speaker_1 [0.00-13.98]: yeah good morning mr harris uh before we get started can i confirm your birthday uh yeah sure um so my birthday is in november 3rd 1987
+speaker_0 [13.98-24.42]: great great so um how can i help you today yeah look um basically i'm just uh experiencing severe

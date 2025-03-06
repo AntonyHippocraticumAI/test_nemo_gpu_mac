@@ -1,0 +1,128 @@
+PARAMS FOR VAD:
+audio_waveform: [ 0.0000000e+00  0.0000000e+00  0.0000000e+00 ...  0.0000000e+00
+ -3.0517578e-05 -3.0517578e-05]
+sr: 16000
+window_length: 0.63
+shift_length: 0.08
+onset_thresh: 0.5
+offset_thresh: 0.3
+pad_onset: 0.2
+pad_offset: 0.2
+min_speech_dur: 0.5
+
+PARAMS FOR WHISPER:
+BATCH SIZE: 8; BEAM_SIZE: 5
+
+TRANSCRIPT:
+
+Good morning, Mr. Harris. Before we get started, can I confirm your birth date? Yeah, sure. So my birthday is November 3rd, 1987. Great, great. So how can I help you today? Yeah, look, basically, I'm just experiencing severe pain in my kind of like lower back and also abdomen. It's been happening for the last couple of days. comes and goes but when it's there it's really really bad and painful um i'm also feeling nauseous and i guess most scarily of all i i noticed some blood in my urine um yeah i'm kind of worried about that yeah i can that's definitely concerning so um let's let's uh let me ask you a few questions have you experienced any urinary changes such as uh you know frequency or urgency or any kind of difficulty passing urine um no not not really i mean i've noticed that my urine has the output has slightly decreased but yeah no difficulty or pain nothing okay um have you ever had a similar episode in the past oh no no uh this is the first time i would have remembered if i had something like this before I see. Have you, has there been any recent trauma or injury to your, your back or abdomen or anything in your, in your midsection? No, not really, doctor. I haven't had any, no, I haven't had any recent injuries. The pain kind of just appeared out of nowhere. I see. Okay. So I think we should run some tests. But based on your symptoms, I think you might have kidney stones. I think that might be the thing we're dealing with. You know, especially the back pain, especially the presence of blood in the urine is indicative of this condition. But let's confirm with some tests. But I think that's what we're looking at. Okay. Kidney stones. Yeah, I mean. I've heard of them. Some of my family members had them, never thought I would have them. But yeah, what tests should we do? So first, we'll need to analyze your urine for signs of infection or stones. That we can do today should be, you know, once we finish up, the nurse will come in, she'll do a quick urine poll. should be relatively quick. The other thing that I want to run is a blood test. I just want to confirm that there's nothing going wrong with your kidney function, just to make sure everything's kind of, you know, your blood is still being filtered and cleaned. Your kidneys are still performing, basically. The thing we'll do, again, that blood test, the nurse will come in later. She can pull that before you leave today. So after we run those tests, it should be about a day, maybe two days to before we get an answer. But, you know, we'll get an answer we can plan on after that. What I'll also do is I'm going to I'm going to schedule you a follow up for a renal ultrasound. What this will do is this is typically, you know, they'll visualize your kidneys. And if there are any large stones, we'll get a clear picture on how many how big they are, that sort of thing. So nothing, you know, just some initial tests, nothing invasive. Okay. Okay. Yeah. I mean, I'm happy that we'll be able to figure out what's happening. I really want to get rid of this pain. What should I expect in terms of treatment if we confirm that these are kidney stones? So kidney stones are very treatable, very typical problem. It happens in a large segment of the population. So it's nothing to be afraid of. In terms of treatment, a lot of times it's as simple as, you know, increasing your hydration, you know, being very dedicated and increasing your hydration. Like I want, you know, ideally you'll be drinking like at least almost half a gallon of water a day, maybe more. And we can kind of, you know, we'll have a bit of a look on exactly how much you should be taking, but really over hydrating, some pain management. You know, if we confirm the diagnosis, typically, you know, we'll give you a review prescription for some pain management drugs. And then ideally you just pass the stones naturally as part of that process. Oh, sorry. There's also some medications around just making it easier to pass the stones in your urine. So some medications that'll help break down the stones in your kidneys and just, you know. hopefully they're small and they just, they just pass through. Um, so a lot of the times it's just medication in some cases, I would say, uh, you know, a good chunk of cases, uh, if the stones are a little too large or if they're causing some complications, we, one of the things we'll do is, uh, we'll probably do is a shockwave lithotripsy. So that's where you're suspended in a, in a in a water, effectively a liquid bath, and essentially ultrasonic waves are shot at the stones in your kidneys with the goal of essentially breaking them up and making them smaller so that you can pass them normally. In very rare circumstances, we may also have to schedule a surgery, but I don't, that's not a typical. case, but we'll have to see based on the results of the test. But I wouldn't worry too much about it. It's pretty standard. It's a very well understood, both a well understood disease and also a well understood process. So it's nothing life-threatening, nothing to worry about. Okay. Thank you. Thanks for clarifying that. Yeah. Let's definitely hope it's not going to be any surgical, but yeah, really, really appreciate the explanation. I think let's... Let's move forward with this then. Okay. So I'll call in the nurse. She'll finish up a little bit of my write-up, call in the nurse. She'll take your tests. We should know, we should have pretty good confirmation within 24 hours, 24 to 48 hours, once the lab results come back. And then we can schedule you for the follow-up stuff there. And if you go to the front desk, they'll schedule you for the ultrasound. Okay. Okay. Okay. Great. Thank you so much, doctor. Yeah. Have a good day. Thank you. Have a good day. Bye.
+
+
+Good morning, Mr. Harris. Before we get started, can I
+confirm your birth date? Yeah, sure. So my birthday is
+November 3rd, 1987. Great, great. So how can I help
+you today? Yeah, look, basically, I'm just experiencing severe pain
+in my kind of like lower back and also abdomen.
+It's been happening for the last couple of days. comes
+and goes but when it's there it's really really bad
+and painful um i'm also feeling nauseous and i guess
+most scarily of all i i noticed some blood in
+my urine um yeah i'm kind of worried about that
+yeah i can that's definitely concerning so um let's let's
+uh let me ask you a few questions have you
+experienced any urinary changes such as uh you know frequency
+or urgency or any kind of difficulty passing urine um
+no not not really i mean i've noticed that my
+urine has the output has slightly decreased but yeah no
+difficulty or pain nothing okay um have you ever had
+a similar episode in the past oh no no uh
+this is the first time i would have remembered if
+i had something like this before I see. Have you,
+has there been any recent trauma or injury to your,
+your back or abdomen or anything in your, in your
+midsection? No, not really, doctor. I haven't had any, no,
+I haven't had any recent injuries. The pain kind of
+just appeared out of nowhere. I see. Okay. So I
+think we should run some tests. But based on your
+symptoms, I think you might have kidney stones. I think
+that might be the thing we're dealing with. You know,
+especially the back pain, especially the presence of blood in
+the urine is indicative of this condition. But let's confirm
+with some tests. But I think that's what we're looking
+at. Okay. Kidney stones. Yeah, I mean. I've heard of
+them. Some of my family members had them, never thought
+I would have them. But yeah, what tests should we
+do? So first, we'll need to analyze your urine for
+signs of infection or stones. That we can do today
+should be, you know, once we finish up, the nurse
+will come in, she'll do a quick urine poll. should
+be relatively quick. The other thing that I want to
+run is a blood test. I just want to confirm
+that there's nothing going wrong with your kidney function, just
+to make sure everything's kind of, you know, your blood
+is still being filtered and cleaned. Your kidneys are still
+performing, basically. The thing we'll do, again, that blood test,
+the nurse will come in later. She can pull that
+before you leave today. So after we run those tests,
+it should be about a day, maybe two days to
+before we get an answer. But, you know, we'll get
+an answer we can plan on after that. What I'll
+also do is I'm going to I'm going to schedule
+you a follow up for a renal ultrasound. What this
+will do is this is typically, you know, they'll visualize
+your kidneys. And if there are any large stones, we'll
+get a clear picture on how many how big they
+are, that sort of thing. So nothing, you know, just
+some initial tests, nothing invasive. Okay. Okay. Yeah. I mean,
+I'm happy that we'll be able to figure out what's
+happening. I really want to get rid of this pain.
+What should I expect in terms of treatment if we
+confirm that these are kidney stones? So kidney stones are
+very treatable, very typical problem. It happens in a large
+segment of the population. So it's nothing to be afraid
+of. In terms of treatment, a lot of times it's
+as simple as, you know, increasing your hydration, you know,
+being very dedicated and increasing your hydration. Like I want,
+you know, ideally you'll be drinking like at least almost
+half a gallon of water a day, maybe more. And
+we can kind of, you know, we'll have a bit
+of a look on exactly how much you should be
+taking, but really over hydrating, some pain management. You know,
+if we confirm the diagnosis, typically, you know, we'll give
+you a review prescription for some pain management drugs. And
+then ideally you just pass the stones naturally as part
+of that process. Oh, sorry. There's also some medications around
+just making it easier to pass the stones in your
+urine. So some medications that'll help break down the stones
+in your kidneys and just, you know. hopefully they're small
+and they just, they just pass through. Um, so a
+lot of the times it's just medication in some cases,
+I would say, uh, you know, a good chunk of
+cases, uh, if the stones are a little too large
+or if they're causing some complications, we, one of the
+things we'll do is, uh, we'll probably do is a
+shockwave lithotripsy. So that's where you're suspended in a, in
+a in a water, effectively a liquid bath, and essentially
+ultrasonic waves are shot at the stones in your kidneys
+with the goal of essentially breaking them up and making
+them smaller so that you can pass them normally. In
+very rare circumstances, we may also have to schedule a
+surgery, but I don't, that's not a typical. case, but
+we'll have to see based on the results of the
+test. But I wouldn't worry too much about it. It's
+pretty standard. It's a very well understood, both a well
+understood disease and also a well understood process. So it's
+nothing life-threatening, nothing to worry about. Okay. Thank you. Thanks
+for clarifying that. Yeah. Let's definitely hope it's not going
+to be any surgical, but yeah, really, really appreciate the
+explanation. I think let's... Let's move forward with this then.
+Okay. So I'll call in the nurse. She'll finish up
+a little bit of my write-up, call in the nurse.
+She'll take your tests. We should know, we should have
+pretty good confirmation within 24 hours, 24 to 48 hours,
+once the lab results come back. And then we can
+schedule you for the follow-up stuff there. And if you
+go to the front desk, they'll schedule you for the
+ultrasound. Okay. Okay. Okay. Great. Thank you so much, doctor.
+Yeah. Have a good day. Thank you. Have a good
+day. Bye.

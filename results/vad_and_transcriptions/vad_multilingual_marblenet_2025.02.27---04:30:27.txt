@@ -1,0 +1,74 @@
+﻿--------------------------------------------------------
+
+BATCH MODE: TURN OFF; VAD WORK TIME - 6.45...TESTED ON MAC1 PRO
+
+VAD SEGMENTS:
+	0: (1.4000000000000001, 4.680000000000001)
+	1: (5.8, 9.719999999999999)
+	2: (9.64, 10.2)
+	3: (9.96, 22.919999999999998)
+	4: (22.6, 29.24)
+	5: (29.32, 35.160000000000004)
+	6: (35.48, 38.52)
+	7: (38.279999999999994, 43.720000000000006)
+	8: (43.72, 44.92)
+	9: (44.68, 47.080000000000005)
+	10: (46.839999999999996, 55.56)
+	11: (55.48, 59.480000000000004)
+	12: (59.16, 60.28)
+	13: (60.44, 66.36)
+	14: (66.03999999999999, 77.88000000000001)
+	15: (77.72, 86.04)
+	16: (85.88, 87.16)
+	17: (87.39999999999999, 102.36)
+	18: (102.11999999999999, 103.56)
+
+TRANSCRIPTIONS:
+	Hello, Amy. I'm Dr. Jones. How are you doing today?
+I'm okay, but it hurts when I go to the
+bathroom when I pee. That's called dysuria and it's pretty
+common. When did this start? Two days ago. Have you
+taken anything for it? I tried some Tylenol and drank
+cranberry juice. It helped. Have you had this before? Yes,
+I had this several years ago before you were my
+doctor. Do you remember about what year that was? I
+think it was 2018. Okay. How was it treated back
+then? The clinic gave me an antibiotic Bactrim and that
+made it better. Great. Is there any chance that you're
+pregnant? I use protection, but there's always a chance, I
+guess. When was your last menstrual period? Three weeks ago.
+Okay. I think we should check a pregnancy test just
+to be sure. Okay. Have you had any vomiting, nausea,
+abdominal pain, back pain, shortness of breath, blood in your
+urine, constipation, diarrhea, or skin rashes? Yes, I've had abdominal
+pain down low. Any vaginal discharge or drainage or painful
+intercourse? No. Okay. Do you have any other problems that
+you'd like me to address? No. Okay. I would like
+to do a simple physical exam. Have you give us
+a urine sample? I will order both a pregnancy test
+and a urine test and that we will do now
+and determine treatment when we have the results. Does that
+sound okay to you? Okay. Thanks.
+
+	0:  Hello, Amy. I'm Dr. Jones. How are you doing today?
+	1:  I'm okay, but it hurts when I go to the bathroom when I pee.
+	2:  That's called dysuria and it's pretty common. When did this start?
+	3:  Two days ago. Have you taken anything for it?
+	4:  I tried some Tylenol and drank cranberry juice. It helped.
+	5:  Have you had this before? Yes, I had this several years ago
+	6:  before you were my doctor. Do you remember about what year that was?
+	7:  I think it was 2018. Okay. How was it treated back then?
+	8:  The clinic gave me an antibiotic Bactrim and that made it better.
+	9:  Great. Is there any chance that you're pregnant? I use protection, but there's always a chance,
+	10:  I guess. When was your last menstrual period?
+	11:  Three weeks ago. Okay. I think we should check
+	12:  a pregnancy test just to be sure. Okay.
+	13:  Have you had any vomiting, nausea, abdominal pain, back pain, shortness of breath,
+	14:  blood in your urine, constipation, diarrhea, or skin rashes?
+	15:  Yes, I've had abdominal pain down low. Any vaginal discharge or drainage or painful
+	16:  intercourse? No.
+	17:  Okay. Do you have any other problems that you'd like me to address?
+	18:  No. Okay. I would like to do a simple physical exam.
+	19:  Have you give us a urine sample? I will order both a pregnancy test and a urine test
+	20:  and that we will do now and determine treatment when we have the results. Does that sound okay to
+	21:  you? Okay. Thanks.

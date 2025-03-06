@@ -1,0 +1,12 @@
+﻿--------------------------------------------------------
+
+BATCH MODE: TURN OFF; VAD WORK TIME - 4.58...TESTED ON MAC1 PRO
+
+VAD SEGMENTS:
+	0: (66.67999999999999, 67.56)
+	1: (78.92, 80.04)
+
+TRANSCRIPTIONS:
+	shortness of breath, vaginal discharge.
+
+	0:  shortness of breath, vaginal discharge.

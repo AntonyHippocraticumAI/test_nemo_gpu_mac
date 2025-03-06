@@ -1,0 +1,40 @@
+speaker_1 [2.06-4.28]: Hello, Amy. I'm Dr. Jones. How are you doing today?
+speaker_0 [6.54-9.12]: I'm okay, but it hurts when I go to the bathroom when I pee.
+speaker_1 [10.62-13.94]: That's called dysuria, and it's pretty common. When did this start?
+speaker_0 [14.72-15.74]: Two days ago.
+speaker_1 [16.94-18.24]: Have you taken anything for it?
+speaker_0 [18.86-22.08]: I tried some Tylenol and drank cranberry juice. It helped.
+speaker_1 [23.34-24.38]: Have you had this before?
+speaker_0 [25.24-28.82]: Yes. I had this several years ago before you were my doctor.
+speaker_1 [30.06-31.96]: Do you remember about what year that was?
+speaker_0 [32.30-33.03]: Do you remember about what year that was?
+speaker_0 [33.03-34.92]: I think it was 2018.
+speaker_1 [36.22-38.52]: How was it treated back then?
+speaker_0 [38.78-39.39]: How was it treated back then?
+speaker_0 [39.39-43.56]: The clinic gave me an antibiotic Bactrim and that made it better.
+speaker_1 [44.38-45.37]: Great.
+speaker_1 [45.37-47.59]: Is there any chance that you're pregnant?
+speaker_1 [47.59-47.76]: I use protection, but there's always a chance, I guess.
+speaker_0 [47.76-50.52]: I use protection, but there's always a chance, I guess.
+speaker_1 [51.42-51.77]: I use protection, but there's always a chance, I guess.
+speaker_1 [51.77-53.32]: So when was your last menstrual period?
+speaker_0 [53.66-54.31]: So when was your last menstrual period?
+speaker_0 [54.31-55.00]: Three weeks ago.
+speaker_1 [56.22-56.31]: Okay.
+speaker_1 [60.85-63.56]: Have you had any vomiting, nausea, abdominal pain, back pain, shortness of breath, blood
+speaker_1 [63.82-67.72]: Have you had any vomiting, nausea, abdominal pain, back pain, shortness of breath, blood
+speaker_1 [68.14-68.35]: Have you had any vomiting, nausea, abdominal pain, back pain, shortness of breath, blood
+speaker_1 [68.35-73.05]: in your urine, constipation, diarrhea, or skin rashes?
+speaker_1 [73.05-73.40]: Yes, I've had abdominal pain down low.
+speaker_0 [73.74-77.64]: Yes, I've had abdominal pain down low.
+speaker_1 [78.54-78.79]: Yes, I've had abdominal pain down low.
+speaker_1 [78.79-81.48]: Any vaginal discharge or drainage or painful intercourse?
+speaker_0 [81.74-82.12]: No.
+speaker_1 [82.62-82.76]: Okay.
+speaker_1 [83.10-83.61]: Okay.
+speaker_1 [83.61-85.80]: Do you have any other problems that you'd like me to address?
+speaker_0 [86.62-86.91]: No.
+speaker_1 [88.43-92.61]: I would like to do a simple physical exam and have you give us a urine sample.
+speaker_1 [93.31-98.85]: I will order both a pregnancy test and a urine test, and that we will do now and determine
+speaker_1 [98.85-100.73]: treatment when we have the results.
+speaker_1 [100.83-101.95]: Does that sound okay to you?
