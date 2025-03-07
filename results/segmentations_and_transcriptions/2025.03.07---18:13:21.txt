@@ -1,0 +1,26 @@
+speaker_0 [0.00-13.34]: Tell me more about when you play football. Do you play for a team or do you just play with your friends? We play on a team. I'm on the A team and the other team is on the B team.
+speaker_0 [13.62-16.52]: And where do you play? What position do you play?
+speaker_1 [18.42-21.70]: We play in the football stadium.
+speaker_0 [22.46-26.50]: And where on the pitch do you play? Do you score goals or are you in goal?
+speaker_1 [27.44-28.66]: I'm in goal.
+speaker_0 [29.42-40.38]: You're in goal. And Thomas has got a goalkeeper's top on as well. Is he a goalkeeper as well? No. He's just wearing a top. Yes. And what about swimming? Do you go swimming often?
+speaker_1 [41.46-42.88]: Yes. Every week.
+speaker_0 [46.02-53.00]: Is that with the school or do you go with your friends? I go with my friend. And where do you go?
+speaker_1 [55.02-57.04]: British Dunes Recreation Centre.
+speaker_0 [57.68-62.72]: And have they got slides and things like that, or do you just do proper swimming?
+speaker_1 [63.52-65.82]: They have slides and things.
+speaker_0 [66.34-68.50]: Do you go on those? Tell me about the slides.
+speaker_1 [68.68-81.96]: Um, one of... My favourite one is the big, long one. It takes three minutes to get into the work I went on.
+speaker_1 [82.20-94.96]: Right from the top? It takes three minutes? From the... it's like from Butenda building, it's that big, yeah. It's like...
+speaker_1 [96.19-104.87]: turn your all the way all the way up the stairs yeah yeah yeah on the top floor right yeah you
+speaker_1 [104.87-113.85]: have to climb in on all the way down into the pool so what do you think about think about when
+speaker_1 [113.85-124.61]: you're going down i just i just relax it until i go down in the water aren't you scared how fast
+speaker_1 [125.87-129.81]: how fast are you going when i'm when i when i'm doing the goal
+speaker_1 [131.19-141.01]: like i stop it and then i walk down you walk walk down yeah that's the thing how do you walk
+speaker_1 [141.01-156.01]: because this narrow thing how do you walk down it like i bend down and i hold on to some things on the top and I walk. So what happens if somebody's coming really fast behind you,
+speaker_1 [156.05-165.57]: they're going to catch you up? No, I go wait until I go around. And then you can let go and slide
+speaker_0 [165.57-171.45]: again? Yeah. And you fancy it sliding again and again. Scared me. And how far can you swim then?
+speaker_1 [177.35-177.75]: meters
+speaker_0 [179.39-180.19]: Six meters
+speaker_0 [183.17-188.21]: Right and is that like a width of the pool or is that can you swim right across the bus the pool or
+speaker_1 [193.37-201.15]: Across it sound like you're a very good swimmer there is only one

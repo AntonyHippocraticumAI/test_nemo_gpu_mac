@@ -1,0 +1,62 @@
+PARAMS FOR VAD:
+audio_waveform: [ 0.00337344  0.0051247   0.00386154 ... -0.01585157 -0.01556388
+ -0.01539652]
+sr: 16000
+window_length: 0.3
+shift_length: 0.08
+onset_thresh: 0.4
+offset_thresh: 0.3
+pad_onset: 0.2
+pad_offset: 0.2
+min_speech_dur: 0.3
+
+VAD SEGMENTS: [(0.44, 1.4), (1.08, 1.72), (1.4000000000000001, 1.96), (1.8800000000000001, 2.68), (2.52, 3.08), (2.84, 3.8000000000000003), (4.04, 4.92), (4.92, 5.4), (5.4799999999999995, 6.04), (6.04, 6.5200000000000005), (6.28, 6.76), (7.8, 8.68), (8.520000000000001, 9.559999999999999), (9.24, 9.879999999999999), (9.8, 10.44), (10.120000000000001, 10.6), (11.24, 12.04), (12.120000000000001, 13.0), (13.24, 14.12), (14.040000000000001, 15.08), (14.760000000000002, 15.239999999999998), (15.24, 15.719999999999999), (17.0, 17.72), (17.720000000000002, 18.439999999999998), (18.2, 18.759999999999998), (18.6, 19.16), (19.400000000000002, 20.04), (19.96, 20.68), (20.44, 21.08), (21.0, 21.64), (22.36, 22.919999999999998), (22.92, 23.4), (23.720000000000002, 24.68), (24.68, 25.72), (25.720000000000002, 26.2), (26.12, 26.599999999999998), (26.28, 26.759999999999998), (26.76, 27.32), (28.04, 28.759999999999998), (28.6, 29.32), (29.88, 30.599999999999998), (30.92, 31.4), (31.080000000000002, 32.2), (32.68, 33.24), (33.239999999999995, 33.96), (34.44, 34.92), (34.599999999999994, 35.080000000000005), (34.919999999999995, 35.400000000000006), (35.48, 36.120000000000005), (35.8, 36.92), (36.919999999999995, 37.720000000000006), (37.4, 38.68), (38.36, 38.84), (38.919999999999995, 39.64), (39.559999999999995, 40.28), (39.959999999999994, 40.52), (40.279999999999994, 40.92), (40.68, 41.400000000000006), (41.64, 42.36), (42.04, 42.84), (42.599999999999994, 43.24), (43.08, 43.720000000000006), (44.919999999999995, 45.400000000000006), (45.239999999999995, 45.720000000000006), (45.4, 46.040000000000006), (45.879999999999995, 46.6), (47.48, 49.24), (49.08, 49.56), (50.839999999999996, 51.32), (51.32, 52.2), (51.959999999999994, 52.760000000000005), (52.519999999999996, 53.0), (52.68, 53.24), (52.919999999999995, 53.56), (53.32, 54.040000000000006), (53.879999999999995, 54.68), (54.519999999999996, 55.080000000000005), (55.72, 56.440000000000005), (56.599999999999994, 57.080000000000005), (56.76, 57.32), (57.8, 58.28), (58.12, 58.6), (58.279999999999994, 58.84), (58.519999999999996, 59.0), (59.32, 59.800000000000004), (59.559999999999995, 60.120000000000005), (60.12, 60.760000000000005), (60.44, 60.92), (60.68, 61.160000000000004), (61.72, 62.68), (62.839999999999996, 64.76), (64.67999999999999, 65.16), (65.39999999999999, 65.88000000000001), (65.56, 66.12), (65.8, 66.28), (66.6, 67.16), (67.64, 68.12), (68.28, 68.76), (68.52, 69.0), (68.84, 69.32000000000001), (70.11999999999999, 70.60000000000001), (70.36, 70.84), (70.75999999999999, 71.56), (71.24, 71.72), (71.56, 72.04), (72.28, 73.0), (72.67999999999999, 73.16), (72.92, 73.4), (74.84, 75.32000000000001), (77.08, 78.2), (78.03999999999999, 78.68), (78.84, 79.4), (79.32, 79.8), (79.56, 80.04), (79.96, 80.44), (80.2, 80.68), (80.67999999999999, 81.64), (81.39999999999999, 82.52), (82.52, 83.08), (83.0, 83.64), (83.32, 83.88000000000001), (83.64, 84.2), (84.2, 84.76), (84.67999999999999, 85.16), (84.92, 85.56), (85.39999999999999, 85.88000000000001), (85.64, 86.12), (85.88, 86.44), (86.2, 86.68), (86.52, 87.0), (86.84, 87.64), (87.88, 88.52), (88.6, 89.16), (89.08, 89.56), (89.56, 90.12), (90.75999999999999, 91.4), (91.24, 91.96000000000001), (92.03999999999999, 92.60000000000001), (92.44, 92.92), (92.6, 93.16), (92.84, 93.32000000000001), (95.32, 95.96000000000001), (95.88, 96.36), (96.03999999999999, 96.52), (96.2, 96.92), (96.6, 97.24000000000001), (96.92, 97.64), (100.67999999999999, 101.16), (101.08, 101.64), (101.39999999999999, 102.12), (102.28, 102.76), (102.67999999999999, 103.4), (103.32, 104.04), (103.88, 104.52), (106.2, 107.16), (106.84, 107.4), (107.16, 107.96000000000001), (108.03999999999999, 108.60000000000001), (108.28, 108.92), (108.92, 109.48), (109.16, 109.72), (109.48, 110.2), (111.48, 112.68), (112.36, 112.84), (115.39999999999999, 115.96000000000001), (116.36, 117.0), (116.67999999999999, 117.24000000000001), (116.92, 117.4), (117.48, 118.28), (117.96, 118.44), (118.75999999999999, 119.56), (119.24, 119.8), (119.48, 119.96000000000001), (119.64, 120.2), (123.39999999999999, 124.44), (124.6, 125.16), (125.56, 126.12), (125.8, 126.28), (126.03999999999999, 126.68), (127.24, 127.96000000000001), (127.64, 128.2), (128.04000000000002, 128.67999999999998), (129.08, 129.95999999999998), (129.64000000000001, 130.11999999999998), (129.88000000000002, 130.35999999999999), (130.28, 130.92), (130.84, 131.39999999999998), (131.32000000000002, 131.79999999999998), (131.64000000000001, 132.11999999999998), (132.52, 133.88), (134.20000000000002, 135.0), (135.16000000000003, 135.95999999999998), (135.8, 136.51999999999998), (136.68, 137.32), (137.96, 138.83999999999997), (138.84, 139.56), (141.24, 141.88), (141.64000000000001, 142.44), (142.68, 143.16), (144.28, 145.07999999999998), (144.84, 145.39999999999998), (145.48000000000002, 146.2), (146.04000000000002, 146.51999999999998), (146.28, 146.76), (149.16000000000003, 150.04), (149.72, 150.2), (150.04000000000002, 150.76), (150.44, 151.0), (150.84, 151.56), (151.4, 151.88), (153.16000000000003, 153.72), (153.4, 153.95999999999998), (154.60000000000002, 156.11999999999998), (156.76000000000002, 157.56), (158.68, 159.23999999999998), (159.16000000000003, 160.04), (160.12, 160.6), (160.36, 161.0), (160.92000000000002, 161.39999999999998), (161.08, 161.56), (161.64000000000001, 162.28), (162.04000000000002, 162.51999999999998), (162.20000000000002, 163.07999999999998), (163.48000000000002, 164.04), (163.72, 164.28), (164.20000000000002, 165.0), (166.92000000000002, 167.64), (168.92000000000002, 169.39999999999998), (169.88000000000002, 170.6), (170.28, 170.76), (170.44, 171.0), (171.0, 171.56), (172.12, 172.92), (172.76000000000002, 173.39999999999998), (173.16000000000003, 174.2), (174.20000000000002, 174.76), (174.76000000000002, 175.56), (176.36, 176.92), (176.68, 177.72), (179.48000000000002, 179.95999999999998), (179.8, 180.28), (179.96, 180.51999999999998), (180.76000000000002, 181.23999999999998), (180.92000000000002, 181.72), (181.56, 182.04), (181.72, 182.2), (183.64000000000001, 184.51999999999998), (184.20000000000002, 184.76), (184.44, 184.92)]
+
+PARAMS FOR WHISPER:
+BATCH SIZE: 8; BEAM_SIZE: 5
+
+TRANSCRIPT:
+
+ So you play in a band, and you practice around your friend's house. I mean, you must make a lot of noise. Yeah, well, that's the reason we've got a friend's house, because he lives in a big detached house. It's like a huge... Yeah, yeah, so that's OK. And you've been playing together for...? A month or two months. Well, I joined the band about a month ago, but they've been for about a year. All right. And big question, what's the band called? Oh, we haven't named it yet. Well, someone sort of, I think, forced our... We thought that sounded a bit stupid. We haven't decided yet. So you play bass in the band? Yeah. And you play bass at the time? Yeah. And any thoughts about writing your own song like that? Yeah, I probably will do soon. Or once. So I've played a few more. I would say the best way to make your own songs is to play other songs first. And then get ideas. So yeah, I need to do that. So you've not had any public performances yet? Not yet, no. Well, the person's house we go to. Or he's quite wealthy and has some pubs or something. Right, right. Or when he said, when we practice a bit more, he could get us to play a few songs. Yeah, that must be great experience. Yeah. If I remember the last time I went to see you, you had an exotic pet. A snake. Yeah, yeah. Yeah, I've still got that. Still right, right. Yeah. Not frightening anybody. And let me see, you're what, 16? Yes, yeah, 16. GCSEs? GCSEs, which subjects? Yeah. Oh, yeah, yeah, well, 8 or 9. Yeah, you have to do English, English Maths and Science. Right. Which I've done, yeah. Yeah, and, um, yeah, and History, Art, French, and IT. And, yeah, yeah, fine, yeah, yeah. And then in 8 years? Yeah, yeah, I hope, yeah. So your school doesn't have a 664? No, it doesn't have one. And your brother who was here? Yeah, he goes to university, he's 21. Right, right. Yeah, and he's university in the same thing. Right, so what's he doing? He's doing languages, French and Spanish with IT, skills in IT, yeah. Whereas that's in a university in Manchester. All right, all right. I think it's Salford, yeah. Yeah, he is, yeah.
+
+So you play in a band, and you practice around
+your friend's house. I mean, you must make a lot
+of noise. Yeah, well, that's the reason we've got a
+friend's house, because he lives in a big detached house.
+It's like a huge... Yeah, yeah, so that's OK. And
+you've been playing together for...? A month or two months.
+Well, I joined the band about a month ago, but
+they've been for about a year. All right. And big
+question, what's the band called? Oh, we haven't named it
+yet. Well, someone sort of, I think, forced our... We
+thought that sounded a bit stupid. We haven't decided yet.
+So you play bass in the band? Yeah. And you
+play bass at the time? Yeah. And any thoughts about
+writing your own song like that? Yeah, I probably will
+do soon. Or once. So I've played a few more.
+I would say the best way to make your own
+songs is to play other songs first. And then get
+ideas. So yeah, I need to do that. So you've
+not had any public performances yet? Not yet, no. Well,
+the person's house we go to. Or he's quite wealthy
+and has some pubs or something. Right, right. Or when
+he said, when we practice a bit more, he could
+get us to play a few songs. Yeah, that must
+be great experience. Yeah. If I remember the last time
+I went to see you, you had an exotic pet.
+A snake. Yeah, yeah. Yeah, I've still got that. Still
+right, right. Yeah. Not frightening anybody. And let me see,
+you're what, 16? Yes, yeah, 16. GCSEs? GCSEs, which subjects?
+Yeah. Oh, yeah, yeah, well, 8 or 9. Yeah, you
+have to do English, English Maths and Science. Right. Which
+I've done, yeah. Yeah, and, um, yeah, and History, Art,
+French, and IT. And, yeah, yeah, fine, yeah, yeah. And
+then in 8 years? Yeah, yeah, I hope, yeah. So
+your school doesn't have a 664? No, it doesn't have
+one. And your brother who was here? Yeah, he goes
+to university, he's 21. Right, right. Yeah, and he's university
+in the same thing. Right, so what's he doing? He's
+doing languages, French and Spanish with IT, skills in IT,
+yeah. Whereas that's in a university in Manchester. All right,
+all right. I think it's Salford, yeah. Yeah, he is,
+yeah.

@@ -1,0 +1,64 @@
+PARAMS FOR VAD:
+audio_waveform: [0.00147828 0.00312128 0.00504336 ... 0.03913315 0.03441622 0.03163692]
+sr: 16000
+window_length: 0.3
+shift_length: 0.08
+onset_thresh: 0.4
+offset_thresh: 0.3
+pad_onset: 0.2
+pad_offset: 0.2
+min_speech_dur: 0.3
+
+VAD SEGMENTS: [(1.1600000000000001, 2.52), (2.76, 3.56), (3.2399999999999998, 3.72), (4.359999999999999, 5.5600000000000005), (6.84, 8.2), (8.440000000000001, 9.959999999999999), (9.64, 10.28), (10.120000000000001, 10.92), (11.0, 11.479999999999999), (11.8, 12.68), (12.84, 13.799999999999999), (14.040000000000001, 16.2), (15.879999999999999, 16.36), (16.04, 16.759999999999998), (16.68, 17.16), (16.92, 17.4), (17.080000000000002, 17.56), (18.04, 19.32), (19.080000000000002, 19.56), (20.12, 21.24), (21.0, 21.56), (21.240000000000002, 22.04), (23.8, 24.279999999999998), (23.96, 24.759999999999998), (24.44, 25.64), (26.36, 27.0), (27.0, 27.64), (27.88, 28.919999999999998), (28.6, 29.32), (29.0, 29.72), (29.88, 30.52), (30.2, 31.16), (31.16, 32.120000000000005), (32.599999999999994, 33.480000000000004), (33.48, 34.120000000000005), (34.199999999999996, 35.96), (37.239999999999995, 38.6), (38.279999999999994, 39.32), (39.0, 40.040000000000006), (39.879999999999995, 40.6), (40.279999999999994, 40.760000000000005), (40.44, 41.24), (40.919999999999995, 41.400000000000006), (41.32, 41.96), (41.64, 42.120000000000005), (43.4, 44.2), (44.04, 44.6), (45.16, 45.96), (46.04, 46.52), (46.519999999999996, 47.24), (47.239999999999995, 47.720000000000006), (47.559999999999995, 48.120000000000005), (48.919999999999995, 50.040000000000006), (50.12, 50.92), (51.239999999999995, 52.040000000000006), (52.279999999999994, 53.080000000000005), (52.76, 53.56), (54.04, 54.52), (55.08, 56.6), (56.279999999999994, 57.32), (57.0, 57.480000000000004), (57.239999999999995, 57.96), (57.64, 58.68), (58.839999999999996, 60.36), (60.36, 61.64), (61.72, 62.68), (62.76, 64.04), (64.03999999999999, 64.92), (64.84, 65.96000000000001), (66.6, 67.64), (67.48, 68.36), (68.6, 69.72), (70.36, 71.08), (71.0, 74.04), (74.28, 75.56), (75.56, 76.84), (76.67999999999999, 77.64), (77.8, 79.08), (78.84, 79.72), (79.56, 80.76), (80.75999999999999, 81.64), (82.03999999999999, 82.84), (82.6, 83.56), (83.24, 84.36), (84.03999999999999, 85.88000000000001), (86.52, 87.48), (88.11999999999999, 88.84), (88.84, 89.88000000000001), (89.96, 90.60000000000001), (90.28, 91.24000000000001), (91.16, 92.12), (91.88, 92.52), (92.44, 93.56), (93.88, 94.84), (95.08, 95.64), (95.32, 96.60000000000001), (97.64, 99.32000000000001), (99.72, 101.56), (101.39999999999999, 102.2), (101.88, 102.36), (102.36, 103.96000000000001), (104.28, 105.32000000000001), (105.08, 105.8), (106.03999999999999, 107.8), (107.48, 108.36), (109.16, 109.96000000000001), (111.16, 112.36), (112.44, 113.96000000000001), (114.03999999999999, 114.76), (114.44, 115.64), (115.32, 116.28), (116.03999999999999, 116.68), (116.52, 117.32000000000001), (117.0, 117.8), (118.11999999999999, 119.4), (119.16, 119.96000000000001), (120.75999999999999, 121.48), (121.56, 122.76), (122.44, 123.08), (123.16, 124.2), (124.44, 125.48), (126.2, 127.0), (126.67999999999999, 127.48), (127.8, 128.6), (129.4, 130.28), (130.04000000000002, 130.83999999999997), (131.64000000000001, 132.2), (131.88000000000002, 132.44), (132.12, 133.23999999999998), (133.32000000000002, 133.79999999999998), (134.28, 135.95999999999998), (136.04000000000002, 137.07999999999998), (137.08, 137.95999999999998), (138.12, 139.07999999999998), (139.0, 139.48), (139.16000000000003, 139.79999999999998), (139.72, 140.6), (140.28, 141.48), (141.24, 142.51999999999998), (143.0, 144.6), (145.4, 146.44), (146.84, 148.11999999999998), (147.88000000000002, 148.35999999999999), (148.12, 148.92), (148.76000000000002, 150.35999999999999), (150.20000000000002, 151.0), (150.76000000000002, 151.32), (151.16000000000003, 154.04), (153.72, 154.44), (156.92000000000002, 158.04), (159.08, 159.72), (159.64000000000001, 160.28), (159.96, 160.44), (160.20000000000002, 160.67999999999998), (160.36, 160.83999999999997), (160.68, 162.44), (162.36, 163.0), (162.68, 163.16), (163.64000000000001, 164.2), (163.96, 165.39999999999998), (165.16000000000003, 165.95999999999998), (165.88000000000002, 167.16), (168.60000000000002, 169.32), (169.16000000000003, 170.92), (171.24, 172.28), (172.04000000000002, 173.16), (173.16000000000003, 174.6), (174.44, 175.16), (175.16000000000003, 176.11999999999998), (176.28, 178.04), (177.72, 178.44), (178.20000000000002, 179.0), (180.44, 181.07999999999998), (180.76000000000002, 181.88), (185.32000000000002, 186.6), (187.24, 188.11999999999998), (188.04000000000002, 188.6), (188.28, 188.76), (188.52, 189.56), (189.48000000000002, 190.28), (191.64000000000001, 192.92), (193.0, 193.88), (193.56, 194.04), (193.8, 194.35999999999999), (195.4, 196.35999999999999), (196.68, 197.39999999999998), (197.72, 198.35999999999999), (198.28, 198.83999999999997), (199.96, 201.23999999999998), (201.96, 203.39999999999998), (204.04000000000002, 205.16), (204.92000000000002, 205.64), (206.52, 207.23999999999998), (207.88000000000002, 209.79999999999998), (209.48000000000002, 210.28), (210.12, 210.67999999999998), (211.96, 212.67999999999998), (212.68, 213.88), (214.20000000000002, 215.64), (215.88000000000002, 216.92), (217.0, 217.64), (217.4, 218.04), (218.76000000000002, 220.11999999999998), (220.28, 220.76), (220.44, 221.0), (220.92000000000002, 222.51999999999998), (222.28, 222.76), (222.44, 223.39999999999998), (223.56, 224.35999999999999), (225.72, 226.67999999999998), (226.84, 227.64), (227.4, 228.04), (227.88000000000002, 229.48), (229.64000000000001, 230.67999999999998), (230.52, 232.51999999999998), (232.44, 233.48), (234.36, 236.35999999999999), (236.36, 237.23999999999998), (237.4, 238.35999999999999), (238.04000000000002, 238.92), (238.76000000000002, 239.23999999999998), (239.4, 239.88), (239.96, 240.44), (241.48000000000002, 242.11999999999998), (241.88000000000002, 242.92), (242.84, 243.95999999999998), (243.96, 244.51999999999998), (244.44, 245.16), (245.08, 246.04), (245.72, 246.51999999999998), (246.28, 247.48), (247.56, 249.16), (249.48000000000002, 250.35999999999999), (250.12, 251.16), (250.84, 251.32), (252.36, 253.23999999999998), (253.08, 253.88), (254.20000000000002, 255.16), (255.24, 256.04), (256.2, 257.0), (257.0, 257.71999999999997), (257.56, 258.36), (258.84000000000003, 260.44), (260.44, 261.15999999999997), (260.84000000000003, 261.32), (262.84000000000003, 263.71999999999997), (263.64, 264.52), (264.68, 265.71999999999997), (265.88, 266.44), (266.36, 267.0), (267.64, 268.52), (268.52000000000004, 269.24), (269.24, 269.88), (269.96000000000004, 271.08), (272.6, 273.15999999999997), (272.92, 273.4), (273.88, 274.59999999999997), (274.36, 275.08), (275.56, 276.28), (276.52000000000004, 277.08), (276.76, 277.24), (277.0, 277.5945625)]
+
+PARAMS FOR WHISPER:
+BATCH SIZE: 8; BEAM_SIZE: 5
+
+TRANSCRIPT:
+
+ Rhaid i mi ddweud hynny. Beth arall rydych chi'n ei hoffi? Joe Cole. Mae'n mynd i fod yn dda, nid yw'n i? Joe Cole. Ie. Mae'n mynd i fod yn dda, nid yw'n i. Mae'n mynd i fod yn dda, nid yw'n i. Mae'n mynd i fod yn dda, nid yw'n i. Mae'n mynd i fod yn dda, nid yw'n i. Mae'n mynd i fod yn dda, nid yw'n i. Mae'n mynd i fod yn dda, nid yw'n i. Mae'n mynd i fod yn dda, nid yw'n i. Mae'n mynd i fod yn dda, nid yw'n i. Mae'n mynd i fod yn dda, nid yw'n Ychydig. Ychydig. Ychydig. Ychydig. Ychydig. Ychydig. Ychydig. Ychydig. Ychydig. Ychydig. ac maen nhw wedi cael ei hyrwyddo gan dŵr anodd ac yn ysgol, yn ysgol, roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Ro O'r ysgol, Hogwarts, ac mae'n rhaid iddo fynd yno. Ac mae ganddo ddiddordebau. I'r ysgol. I'r ysgol. I'r ysgol. I'r ysgol. I'r ysgol. I'r ysgol. I'r ysgol. I'r ysgol. I'r ysgol. I'r ysgol. Ie. A beth oedd eich gêm cymdeithasol? Rwyf wedi cael PlayStation a gêm, ac rwyf wedi cael Haze, Hey, Williams ac hynny. Ie. Beth oedd eich gêm rydych chi'n hoffi chwarae ar PlayStation? Adventure a Shooting. Shooting? Ie. Beth yw hynny? Rwy'n gwybod ei fod yn ymwneud â Shooting, ond rwy'n gofyn beth o gêm ydyn nhw? Fel James Bond a phethau fel hynny. A beth oedd eich gêm Adventure? Beth yw'r gwahaniaeth rhwng chwaraewr a chwaraewr addysg? Mae pob tîm wedi cael gwaith ac mae gwaith yn anodd ac mae'r chwaraewr yn gwahanol. Felly mae'n rhaid i chi ddefnyddio'ch ffrin. Ie. Beth yw'ch rhaglenni TV o'ch ffordd? Rwy'n gwrando unrhyw beth. Mae'n hwyl. Nid ydych yn arbennig? Na. A beth yw'ch cwestiwn o'ch ffordd? Mathemateg. Mae hynny'n ddiddorol. Beth fyddech chi'n hoffi am y mas? Mae'n hawdd, ie. Felly mae'n hawdd, rydych chi'n hoffi. Ie. Ie. A ble ydych chi'n hoffi, lle y byddech chi'n hoffi? Ysbain. Ie? Ie. O ble wnaethoch chi fynd i? Mallorca. A beth wnaethoch chi ei hoffi? Ysbrydoli'r caebes. Yn siwr? Ysbrydoli'r caebes. Caebes? Ie. O ble mae'r caebes yna? O ble mae'r caebes yna? O ble mae'r caebes yna? O ble mae'r caebes yna? O ble mae'r caebes yna? O ble mae'r caebes Ro'n nhw'n rhaid i fi ddweud hynny. Ro'n nhw'n rhaid i fi dweud hynny. Ychwanegu. Ychwanegu. Un mwy.
+
+Rhaid i mi ddweud hynny. Beth arall rydych chi'n ei
+hoffi? Joe Cole. Mae'n mynd i fod yn dda, nid
+yw'n i? Joe Cole. Ie. Mae'n mynd i fod yn
+dda, nid yw'n i. Mae'n mynd i fod yn dda,
+nid yw'n i. Mae'n mynd i fod yn dda, nid
+yw'n i. Mae'n mynd i fod yn dda, nid yw'n
+i. Mae'n mynd i fod yn dda, nid yw'n i.
+Mae'n mynd i fod yn dda, nid yw'n i. Mae'n
+mynd i fod yn dda, nid yw'n i. Mae'n mynd
+i fod yn dda, nid yw'n i. Mae'n mynd i
+fod yn dda, nid yw'n Ychydig. Ychydig. Ychydig. Ychydig. Ychydig.
+Ychydig. Ychydig. Ychydig. Ychydig. Ychydig. ac maen nhw wedi cael
+ei hyrwyddo gan dŵr anodd ac yn ysgol, yn ysgol,
+roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr
+wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo.
+Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr
+wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo. Roedd gweithwyr wedi'u hyrwyddo.
+Roedd gweithwyr wedi'u hyrwyddo. Ro O'r ysgol, Hogwarts, ac mae'n
+rhaid iddo fynd yno. Ac mae ganddo ddiddordebau. I'r ysgol.
+I'r ysgol. I'r ysgol. I'r ysgol. I'r ysgol. I'r ysgol.
+I'r ysgol. I'r ysgol. I'r ysgol. I'r ysgol. Ie. A
+beth oedd eich gêm cymdeithasol? Rwyf wedi cael PlayStation a
+gêm, ac rwyf wedi cael Haze, Hey, Williams ac hynny.
+Ie. Beth oedd eich gêm rydych chi'n hoffi chwarae ar
+PlayStation? Adventure a Shooting. Shooting? Ie. Beth yw hynny? Rwy'n
+gwybod ei fod yn ymwneud â Shooting, ond rwy'n gofyn
+beth o gêm ydyn nhw? Fel James Bond a phethau
+fel hynny. A beth oedd eich gêm Adventure? Beth yw'r
+gwahaniaeth rhwng chwaraewr a chwaraewr addysg? Mae pob tîm wedi
+cael gwaith ac mae gwaith yn anodd ac mae'r chwaraewr
+yn gwahanol. Felly mae'n rhaid i chi ddefnyddio'ch ffrin. Ie.
+Beth yw'ch rhaglenni TV o'ch ffordd? Rwy'n gwrando unrhyw beth.
+Mae'n hwyl. Nid ydych yn arbennig? Na. A beth yw'ch
+cwestiwn o'ch ffordd? Mathemateg. Mae hynny'n ddiddorol. Beth fyddech chi'n
+hoffi am y mas? Mae'n hawdd, ie. Felly mae'n hawdd,
+rydych chi'n hoffi. Ie. Ie. A ble ydych chi'n hoffi,
+lle y byddech chi'n hoffi? Ysbain. Ie? Ie. O ble
+wnaethoch chi fynd i? Mallorca. A beth wnaethoch chi ei
+hoffi? Ysbrydoli'r caebes. Yn siwr? Ysbrydoli'r caebes. Caebes? Ie. O
+ble mae'r caebes yna? O ble mae'r caebes yna? O
+ble mae'r caebes yna? O ble mae'r caebes yna? O
+ble mae'r caebes yna? O ble mae'r caebes Ro'n nhw'n
+rhaid i fi ddweud hynny. Ro'n nhw'n rhaid i fi
+dweud hynny. Ychwanegu. Ychwanegu. Un mwy.

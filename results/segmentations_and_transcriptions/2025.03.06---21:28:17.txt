@@ -1,0 +1,94 @@
+FUNCS:
+iou_speaker_matching
+Matching speakers based on IoU.
+
+FUNCS:
+probabilistic_speaker_matching
+Probabilistic matching of speakers
+
+FUNCS:
+graph_based_speaker_matching
+Graph matching of speakers.
+
+speaker_1 [0.52-3.84]: So you play in a band and you practice around your friend's house.
+speaker_1 [4.20-4.52]: Yeah.
+speaker_0 [4.58-6.14]: I mean, you must make a lot of noise.
+speaker_0 [6.60-7.16]: Oh, yeah.
+speaker_1 [8.78-11.78]: Well, that's the reason we go to our friend's house,
+speaker_1 [11.86-13.90]: because he lives in a big detached house.
+speaker_0 [14.28-15.78]: It's like a huge house, so it's OK.
+speaker_1 [16.18-17.40]: OK, so you make a lot of noise.
+speaker_1 [17.80-19.14]: Yeah, so that's OK, yeah.
+speaker_0 [19.50-20.98]: And you've been playing together for...?
+speaker_0 [21.46-23.42]: Only about a month or two months.
+speaker_0 [24.36-26.64]: Well, I joined the band about a month ago,
+speaker_0 [26.70-28.82]: but they've been playing for about a year, I think.
+speaker_0 [28.84-29.06]: Oh, right.
+speaker_1 [29.20-29.68]: Yeah, so, yeah.
+speaker_0 [30.16-34.68]: and big question what's the band called oh we haven't thought of a name yet
+speaker_0 [34.68-41.72]: well um someone sort of um i think forced our unleaded second
+speaker_1 [44.96-48.96]: we ever thought that sounded a bit stupid we haven't decided yet
+speaker_1 [51.24-56.76]: um so you play bass in the band yeah and they you play rock you play yeah yeah
+speaker_1 [58.10-61.94]: And have you got any thoughts about writing your own stuff or anything like that?
+speaker_1 [62.92-67.28]: Yeah, I probably will do soon, once I've played a few more songs.
+speaker_1 [67.58-71.84]: I would say the best way to make your own songs is to play other songs first,
+speaker_0 [72.02-75.94]: and then get ideas, so yeah, I'll probably need to do that a bit more first.
+speaker_1 [76.54-79.60]: That's good. So you've not had any public performances yet?
+speaker_1 [79.94-82.76]: Not yet, no. Well, The Person's House we go to.
+speaker_1 [83.23-86.11]: or he's quite wealthy and his dad owns some pubs or something.
+speaker_0 [86.33-86.57]: Right.
+speaker_1 [86.79-90.53]: Or when he said, when we practice a bit more and improve,
+speaker_1 [90.65-93.99]: he could get us to play a few songs at the pub.
+speaker_1 [94.57-95.31]: That would be good.
+speaker_1 [95.35-95.67]: Yeah.
+speaker_1 [95.67-97.15]: Again, that must be a great experience,
+speaker_1 [97.23-99.99]: just playing in front of a wide audience.
+speaker_1 [100.25-100.33]: Yeah.
+speaker_1 [100.79-102.73]: Now, if I remember the last time I came to see you,
+speaker_0 [102.77-104.21]: you had an exotic pet.
+speaker_0 [105.58-106.26]: You've still got it?
+speaker_0 [106.50-106.82]: Snake.
+speaker_0 [107.06-107.16]: Yeah.
+speaker_0 [107.42-107.74]: Yeah.
+speaker_0 [108.08-109.20]: I've still got that, yeah.
+speaker_0 [109.24-109.48]: Still alright?
+speaker_0 [109.70-109.94]: Yeah.
+speaker_0 [110.00-110.46]: Fine, yeah.
+speaker_0 [111.44-112.78]: Not frightening anybody recently.
+speaker_0 [112.78-112.92]: No.
+speaker_0 [115.48-116.96]: And let me see, you're what?
+speaker_0 [116.98-117.28]: 16?
+speaker_0 [117.64-118.28]: Yeah, 16.
+speaker_0 [118.34-119.70]: So, GCSEs?
+speaker_0 [120.00-120.94]: GCSEs in May, yeah.
+speaker_0 [121.14-121.34]: Yeah.
+speaker_0 [121.68-122.32]: What are you doing?
+speaker_0 [123.04-124.00]: Well, with subjects.
+speaker_0 [124.16-124.48]: Yeah.
+speaker_0 [124.86-125.94]: You do so many, don't you?
+speaker_0 [125.96-126.18]: Oh, yeah.
+speaker_0 [126.22-126.40]: Yeah.
+speaker_0 [126.40-127.92]: Well, I think about eight or nine.
+speaker_0 [128.12-128.40]: Yeah.
+speaker_0 [128.50-130.74]: And you have to do English, Maths and Science.
+speaker_0 [130.94-131.26]: Right.
+speaker_0 [131.34-132.06]: Which I've done, yeah.
+speaker_0 [132.18-132.56]: That's true.
+speaker_0 [132.80-133.12]: Yeah.
+speaker_0 [134.30-140.08]: Yeah, and history, art, French, and IT, and technology.
+speaker_0 [140.56-141.20]: How's it going?
+speaker_0 [141.40-142.20]: Yeah, fine, yeah.
+speaker_0 [142.44-142.64]: Yeah?
+speaker_0 [142.64-142.94]: Yeah.
+speaker_0 [143.10-145.70]: And then A-levels?
+speaker_0 [145.78-148.04]: Yeah, hopefully, yeah, going to college.
+speaker_0 [148.88-151.22]: So your school doesn't have a sixth form?
+speaker_0 [151.22-152.02]: No, it doesn't have it, no.
+speaker_0 [152.26-153.22]: You want to go on to college?
+speaker_0 [153.42-153.90]: Yeah.
+speaker_0 [154.44-156.94]: And your brother who was here earlier, is he your older brother?
+speaker_0 [157.10-157.34]: Yeah.
+speaker_0 [157.80-161.32]: And he goes to university, he's 21.
+speaker_0 [161.80-167.10]: right yeah and he he finishes university and like at the same time i i finished school really yeah
+speaker_0 [167.10-173.10]: right so yeah what's he studying um he's doing languages um french and spanish with
+speaker_0 [173.10-180.52]: i.t skills and i.t yeah where's that where's oh that's in um you know university in manchester

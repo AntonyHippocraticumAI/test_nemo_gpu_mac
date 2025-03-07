@@ -1,0 +1,60 @@
+PARAMS FOR VAD:
+audio_waveform: [0.00539695 0.00988765 0.00456669 ... 0.10076559 0.11177534 0.10201183]
+sr: 16000
+window_length: 0.3
+shift_length: 0.08
+onset_thresh: 0.4
+offset_thresh: 0.3
+pad_onset: 0.2
+pad_offset: 0.2
+min_speech_dur: 0.3
+
+VAD SEGMENTS: [(0.36000000000000004, 1.96), (2.1199999999999997, 4.28), (4.04, 5.32), (5.24, 5.88), (5.56, 6.28), (5.96, 7.640000000000001), (7.64, 8.6), (8.280000000000001, 8.92), (9.24, 9.879999999999999), (9.56, 10.52), (10.200000000000001, 10.68), (10.520000000000001, 11.319999999999999), (11.4, 11.879999999999999), (12.600000000000001, 13.639999999999999), (13.32, 13.799999999999999), (13.48, 14.2), (13.88, 14.52), (14.200000000000001, 14.84), (15.32, 15.879999999999999), (15.72, 16.599999999999998), (16.44, 17.96), (17.8, 18.36), (18.2, 19.24), (18.92, 19.4), (20.84, 22.2), (21.88, 24.439999999999998), (24.44, 25.56), (26.12, 26.84), (26.52, 27.48), (28.6, 29.64), (29.32, 30.279999999999998), (30.28, 30.759999999999998), (30.52, 32.440000000000005), (32.12, 32.6), (33.08, 34.440000000000005), (34.76, 35.32), (35.64, 37.0), (36.919999999999995, 38.040000000000006), (37.72, 38.2), (37.879999999999995, 38.68), (39.48, 40.440000000000005), (40.44, 41.080000000000005), (41.239999999999995, 42.52), (42.36, 43.080000000000005), (43.64, 44.84), (44.839999999999996, 45.32), (45.239999999999995, 45.88), (45.64, 46.760000000000005), (47.0, 47.800000000000004), (47.72, 48.440000000000005), (48.12, 49.0), (48.76, 49.24), (49.559999999999995, 50.68), (51.4, 51.88), (51.559999999999995, 52.760000000000005), (52.44, 53.0), (52.68, 53.32), (54.04, 55.88), (56.04, 57.32), (57.08, 58.28), (57.959999999999994, 59.160000000000004), (59.08, 60.2), (59.879999999999995, 60.68), (60.519999999999996, 61.56), (61.239999999999995, 61.96), (62.36, 62.84), (62.519999999999996, 63.24), (62.919999999999995, 63.400000000000006), (64.36, 65.72), (66.6, 67.48), (67.16, 68.04), (68.36, 70.2), (69.88, 70.44), (70.11999999999999, 70.68), (70.44, 71.08), (70.75999999999999, 71.24000000000001), (71.08, 71.8), (71.56, 72.60000000000001), (72.6, 73.8), (73.88, 75.0), (74.67999999999999, 75.24000000000001), (74.92, 76.44), (76.28, 77.0), (77.32, 79.16), (78.92, 79.72), (79.39999999999999, 79.88000000000001), (79.64, 80.28), (80.11999999999999, 81.4), (81.72, 82.60000000000001), (82.36, 82.84), (82.6, 83.4), (83.56, 84.44), (84.2, 84.76), (84.6, 85.64), (85.32, 85.88000000000001), (85.72, 86.44), (86.2, 86.92), (86.84, 87.72), (87.72, 88.76), (88.52, 89.08), (90.2, 90.68), (90.67999999999999, 91.72), (91.39999999999999, 92.68), (92.36, 92.84), (92.52, 93.72), (93.39999999999999, 94.36), (94.11999999999999, 94.92), (94.67999999999999, 95.48), (95.39999999999999, 96.36), (96.11999999999999, 97.64), (97.8, 98.76), (98.52, 99.24000000000001), (99.72, 100.44), (100.28, 102.12), (101.96, 102.76), (102.44, 103.0), (103.0, 103.8), (103.48, 104.52), (104.36, 105.64), (106.6, 107.88000000000001), (108.2, 108.84), (108.75999999999999, 110.60000000000001), (110.36, 111.16), (111.08, 112.36), (112.03999999999999, 113.24000000000001), (113.24, 113.72), (113.88, 115.0), (114.92, 115.4), (115.32, 116.68), (116.84, 120.2), (119.96, 120.60000000000001), (120.36, 121.24000000000001), (121.08, 122.2), (122.28, 123.08), (122.92, 124.2), (123.96, 124.76), (124.6, 125.08), (124.92, 125.72), (126.36, 127.32000000000001), (127.0, 127.8), (127.48, 128.2), (127.88000000000001, 128.51999999999998), (128.60000000000002, 129.16), (128.84, 129.56), (129.32000000000002, 130.28), (130.12, 131.39999999999998), (131.32000000000002, 131.95999999999998), (131.96, 133.07999999999998), (132.76000000000002, 133.48), (133.16000000000003, 133.64), (134.36, 135.0), (134.68, 136.35999999999999), (136.12, 136.76), (136.60000000000002, 137.48), (137.56, 138.2), (138.36, 138.92), (138.92000000000002, 139.48), (140.20000000000002, 141.48), (141.24, 141.72), (141.48000000000002, 142.04), (141.72, 143.72), (143.72, 144.6), (144.44, 145.16), (145.24, 146.76), (146.52, 147.48), (147.16000000000003, 147.72), (147.96, 148.76), (148.44, 149.64), (150.84, 152.92), (152.84, 153.56), (153.32000000000002, 153.95999999999998), (153.64000000000001, 154.67999999999998), (156.44, 157.23999999999998), (157.64000000000001, 158.28), (158.04000000000002, 159.16), (159.24, 159.72), (159.4, 159.88), (159.64000000000001, 160.2), (160.84, 161.79999999999998), (161.96, 163.16), (162.84, 163.48), (163.16000000000003, 164.28), (163.96, 164.83999999999997), (164.52, 165.07999999999998), (165.48000000000002, 166.04), (166.20000000000002, 167.48), (168.28, 168.76), (168.44, 169.0), (169.32000000000002, 170.04), (169.8, 170.35999999999999), (170.12, 170.83999999999997), (170.92000000000002, 173.48), (173.16000000000003, 174.35999999999999), (174.12, 174.67999999999998), (174.36, 175.16), (175.88000000000002, 176.83999999999997), (176.68, 177.39999999999998), (177.24, 178.2), (178.36, 178.92), (178.76000000000002, 179.39999999999998), (179.32000000000002, 179.88), (179.64000000000001, 180.44), (181.72, 182.51999999999998), (182.28, 183.64), (184.60000000000002, 185.48), (185.24, 185.79999999999998), (185.48000000000002, 186.04), (185.8, 187.03675)]
+
+PARAMS FOR WHISPER:
+BATCH SIZE: 8; BEAM_SIZE: 5
+
+TRANSCRIPT:
+
+ Tell me more about when you play football. Do you play for a team or do you just play with your friends? We play on a team. I'm on the A team and the other team is on the B team. And where do you play? What position do you play? We play in the football stadium. And where on the pitch do you play? Do you score goals or are you in goal? I'm in goal. You're in goal. And Thomas has got a goalkeeper's top on as well. Is he a goalkeeper as well? He's just wearing a top. And what about swimming? Do you go swimming often? Yeah, every week. Is that with the school or do you go with your friends? I go with my friend. And where do you go? Bridgestone's record centre. And have they got slides? Things like that, or do you just do proper swimming? They have slides and things. Do you go on those? Tell me about the slide. One of them, I'm shocked. My favourite one, the big, long one, it takes three minutes to get into what I went on the slide. Right from the top? It takes three minutes? From the... So what do you think about when you're going down? I just relax it until I go down in the water. Aren't you scared? Mm-mm. How fast are you going? Hmm? How fast are you going? When I go fast, I stop it and then I walk down. You walk down? Yeah, the thing. How do you walk? Because it's a narrow thing. How do you walk down it? Like I bend down and I hold on to some things on the top and all. So what happens if somebody's coming really fast behind you? Are they going to catch you up? No. I go wait until I go around. And then you can let go and slide again. Yeah. When you fancy it sliding again. Scared me. How far can you swim? I can swim six meters, actually. Six meters? What's that in? About seven yards. Right. And is that like a width of the pool, or is that... Can you swim right across the pool, or...? I can swim right across it. Right across it? Sound like you're a very good swimmer. There is only one...
+
+Tell me more about when you play football. Do you
+play for a team or do you just play with
+your friends? We play on a team. I'm on the
+A team and the other team is on the B
+team. And where do you play? What position do you
+play? We play in the football stadium. And where on
+the pitch do you play? Do you score goals or
+are you in goal? I'm in goal. You're in goal.
+And Thomas has got a goalkeeper's top on as well.
+Is he a goalkeeper as well? He's just wearing a
+top. And what about swimming? Do you go swimming often?
+Yeah, every week. Is that with the school or do
+you go with your friends? I go with my friend.
+And where do you go? Bridgestone's record centre. And have
+they got slides? Things like that, or do you just
+do proper swimming? They have slides and things. Do you
+go on those? Tell me about the slide. One of
+them, I'm shocked. My favourite one, the big, long one,
+it takes three minutes to get into what I went
+on the slide. Right from the top? It takes three
+minutes? From the... So what do you think about when
+you're going down? I just relax it until I go
+down in the water. Aren't you scared? Mm-mm. How fast
+are you going? Hmm? How fast are you going? When
+I go fast, I stop it and then I walk
+down. You walk down? Yeah, the thing. How do you
+walk? Because it's a narrow thing. How do you walk
+down it? Like I bend down and I hold on
+to some things on the top and all. So what
+happens if somebody's coming really fast behind you? Are they
+going to catch you up? No. I go wait until
+I go around. And then you can let go and
+slide again. Yeah. When you fancy it sliding again. Scared
+me. How far can you swim? I can swim six
+meters, actually. Six meters? What's that in? About seven yards.
+Right. And is that like a width of the pool,
+or is that... Can you swim right across the pool,
+or...? I can swim right across it. Right across it?
+Sound like you're a very good swimmer. There is only
+one...

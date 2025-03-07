@@ -2,6 +2,7 @@ import os
 import librosa
 from nemo.collections.asr.models import NeuralDiarizer
 
+from services.model_manager.vad_manager import preload_vad_model
 from services.model_manager.whisper_manager import preload_models
 from utils.d_utils import DiarizationService
 from utils.manifest import create_manifest
@@ -23,13 +24,45 @@ OUT_DIR = os.path.join(ROOT_DIR, "diar_output")
 
 def main():
     ##########################################################################
+    whisper_model_manager = preload_models()
+    vad_model_manager = preload_vad_model()
+    logger.info("Loaded VAD and WHISPER models")
+    ##########################################################################
+    audio_without_vad, sr = vad_model_manager.get_audio_time_series(AUDIO_PATH)
+    logger.info(f"AUDIO: {audio_without_vad}")
+
+    params_vad = vad_model_manager.get_params_for_vad_model(audio_without_vad, sr, window_length=0.2, onset_thresh=0.5, min_speech_dur=0.2)
+    logger.info(f"PARAMS VAD: {params_vad}")
+
+    segments = vad_model_manager.get_speech_segments(**params_vad)
+    logger.info(f"SEGMENTS: {segments}")
+
+    audio_data = vad_model_manager.get_ndarray_of_segments(audio_without_vad, segments, sr)
+    logger.info(f"CLEANED AUDIO: {audio_data}")
+
+
+    from scipy.io.wavfile import write
+    import numpy as np
+
+    if audio_data.dtype != np.int16:
+        audio_data = audio_data / np.max(np.abs(audio_data))
+        audio_data = np.int16(audio_data * 32767)
+
+    write("output.wav", 16000, audio_data)
+
+    ##########################################################################
+
+
+    ##########################################################################
     # A) TRANSCRIPTION WHISPER
     ##########################################################################
-    audio, sr = librosa.load(AUDIO_PATH, sr=16000)
+    audio, sr = librosa.load("output.wav", sr=16000)
     logger.info(f"Loaded audio {AUDIO_PATH}, sr={sr}, duration={len(audio)/sr:.1f}s")
 
     logger.info("=== WHISPER STEP ===")
-    whisper_model_manager = preload_models()
+    ##########################################################################
+    # A) TRANSCRIPTION WHISPER
+    ##########################################################################
 
     segments_gen, _ = whisper_model_manager.transcribe_for_diarisation(audio)
     logger.info(segments_gen)
@@ -43,7 +76,7 @@ def main():
     ##########################################################################
 
     # 1) Create manifest (JSON) for one audio
-    create_manifest(AUDIO_PATH, MANIFEST_PATH, FORCE_SPEAKERS)
+    create_manifest("output.wav", MANIFEST_PATH, FORCE_SPEAKERS)
 
     # 2) Create config for NeuralDiarizer
     #    enable_msdd=True -> Use MSDD (Multi-scale diarization decoder)
@@ -60,7 +93,7 @@ def main():
 
     # Format: SPEAKER <audio_name> 1 <start_time> <duration> <..> <..> <speaker_label>
     rttm_utils = RttmUtils(OUT_DIR)
-    rttm_utils.check_the_results_of_diarization()
+    rttm_utils.check_the_results_of_diarization(file_name="output.rttm")
 
     diar_segments = rttm_utils.format_diarization_rttm()
 
@@ -69,13 +102,13 @@ def main():
 
     # methods = [DiarizationService.probabilistic_speaker_matching]
 
-    matched_segments = DiarizationService.weighted_ensemble_speaker_matching(
+    matched_segments = DiarizationService.ensemble_speaker_matching(
         whisper_segments,
         diar_segments,
         # methods=methods,
     )
 
-    final_merged = DiarizationService.improved_merge_adjacent_segments(matched_segments)
+    final_merged = DiarizationService.merge_adjacent_segments(matched_segments)
 
     ##########################################################################
     # D) Final merge
@@ -87,3 +120,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

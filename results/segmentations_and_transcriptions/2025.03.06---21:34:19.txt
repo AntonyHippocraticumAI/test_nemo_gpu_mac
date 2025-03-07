@@ -1,0 +1,101 @@
+FUNCS:
+iou_speaker_matching
+Matching speakers based on IoU.
+
+FUNCS:
+probabilistic_speaker_matching
+Probabilistic matching of speakers
+
+FUNCS:
+graph_based_speaker_matching
+Graph matching of speakers.
+
+speaker_1 [1.79-3.71]: Dwi'n meddwl eich bod chi'n gallu ddweud hynny.
+speaker_1 [4.47-5.35]: Pwy arall rydych chi'n hoffi?
+speaker_0 [7.03-7.65]: Joe Cole.
+speaker_0 [8.49-9.71]: Mae'n mynd i fod yn dda, nid yw'n i?
+speaker_1 [10.23-10.55]: Ie.
+speaker_1 [10.71-11.51]: Pan fydd yn gweithredu.
+speaker_1 [12.03-12.35]: Shaka.
+speaker_1 [12.89-13.33]: Yw'n hynny'n dda?
+speaker_0 [14.15-14.97]: Yw'n hynny'n dal i'w chwarae?
+speaker_0 [15.15-16.57]: Oherwydd maen nhw wedi canolbwyntio golau newydd, nid ydyn nhw?
+speaker_0 [16.73-21.67]: Mae wedi canolbwyntio David James o Aston Villa.
+speaker_1 [23.51-23.83]: Ie.
+speaker_1 [23.89-25.81]: Felly bydd Shaka ddim yn chwarae unwaith mwy.
+speaker_0 [26.53-26.85]: Ie.
+speaker_0 [27.01-27.47]: Byddwn ni'n gweld.
+speaker_1 [29.84-30.44]: beth rydych chi wedi'i gael?
+speaker_1 [30.62-30.90]: Dog
+speaker_1 [30.90-32.28]: Ie, beth fath o dog?
+speaker_0 [32.92-35.44]: Mae'n cymryd rhwydwaith rhwydwaith...
+speaker_1 [37.40-38.94]: Dwi ddim yn gwybod, ond dwi'n gwybod ei fod yn cymryd rhwydwaith
+speaker_0 [38.94-41.50]: Mae'n cymryd rhwydwaith rhwydwaith llawer o dogau
+speaker_0 [41.50-41.70]: Ie
+speaker_0 [41.70-42.62]: neu ddwy dogau gwahanol
+speaker_0 [42.62-42.92]: Ie
+speaker_1 [44.46-46.10]: A ddweud wrthyf am Harry Potter yna?
+speaker_1 [46.18-47.30]: Dwi ddim wedi darllen unrhyw o'i llyfrau
+speaker_0 [47.30-48.18]: Rydych chi wedi darllen nhw i gyd, rydych chi'n dweud?
+speaker_0 [49.16-50.52]: Rwy'n ar nifer 4
+speaker_1 [50.90-51.68]: Ie, beth ydyn nhw?
+speaker_1 [52.48-52.76]: 4
+speaker_1 [58.97-84.97]: Roedd e'n bwyd a'i rhieni oedd gwirfoddolwyr a gwirfoddolwyr ac roedden nhw'n cael eu llwyddo gan un o'r gwirfoddolwyr anodd ac roedd ysgolion wedi gweithio gyda'i hwnnw, a dywedodd ei nad yw'n gwirfoddolwyr, mae'n golygu nad ydyn nhw'n gwirfoddolwyr.
+speaker_1 [88.17-100.83]: Roedd e'n dod i ffwrdd â nhw. Pan roedd e'n 11 roedd e'n mynd i'r ysgol, Hogwarts, ac mae'n rhaid iddo fynd yno.
+speaker_0 [101.87-105.09]: Ac mae ganddo ddiddordebau yn y ysgol?
+speaker_0 [105.15-108.09]: Ie. Yn hytrach na chi. Pwy yw'n ei enwog?
+speaker_0 [110.69-115.17]: Mae'n debyg bod y gwirioneddwyr ddewr wedi curio ei mam a'i bab.
+speaker_0 [115.19-116.69]: Ie, maen nhw ar ôl iddo hefyd, maen nhw?
+speaker_0 [118.12-119.78]: A phwy oedd ei ffrindiau? Pwy oedd yn ei helpu?
+speaker_0 [121.14-124.44]: Ron Weasley a Hermione Ranger.
+speaker_0 [126.06-127.42]: Mae plant yno.
+speaker_0 [127.74-128.26]: Ie.
+speaker_0 [129.26-130.72]: A beth oedd gêm cyfrifiadol rydych chi?
+speaker_0 [131.52-136.76]: Rwyf wedi cael PlayStation a gêm ac rydw i wedi cael Haze.
+speaker_0 [137.04-141.92]: Ie. Beth oedd gêm rydych chi'n hoffi chwarae ar PlayStation?
+speaker_0 [143.08-145.92]: Adventure a shooting.
+speaker_0 [147.02-152.10]: Ysgrifennu. Mae hynny'n ymwneud â ysgrifennu, ond beth fath o ffyrdd ydyn nhw?
+speaker_0 [152.24-157.82]: Fel James Bond a pethau fel hynny.
+speaker_0 [158.86-162.86]: A beth yw'r ffrindiau addysg? Beth yw'r gwahaniaeth rhwng y ffrindiau ysgrifennu ac y ffrindiau addysg?
+speaker_0 [176.82-178.16]: Ie, felly mae'n rhaid i chi ddefnyddio'ch ddechrau.
+speaker_0 [178.46-178.70]: Ie.
+speaker_0 [180.44-181.92]: Beth yw'ch rhaglen tefnogaeth tefnogaeth?
+speaker_0 [185.44-186.32]: Byddwn i'n gwrando unrhyw beth.
+speaker_0 [187.22-187.88]: Mae'n hwyl.
+speaker_0 [188.16-189.24]: Nid ydych yn benodol.
+speaker_0 [189.64-190.00]: Na.
+speaker_0 [192.90-194.62]: Beth yw'ch rhaglen tefnogaeth yn ysgol?
+speaker_0 [195.72-196.08]: Mathemateg.
+speaker_0 [196.38-196.74]: Yn wir?
+speaker_0 [196.92-197.10]: Ie.
+speaker_0 [197.76-199.58]: Mae hynny'n ddiddorol. Nid yw llawer o bobl yn ei ddweud hynny.
+speaker_0 [199.86-201.04]: Beth fyddwch chi'n hoffi am mathemateg?
+speaker_0 [201.96-202.68]: Mae'n hawdd.
+speaker_0 [203.08-205.14]: Mae'n hawdd rydych chi'n ei hoffi?
+speaker_0 [205.24-205.32]: Ie.
+speaker_0 [205.82-232.16]: Mae hwnnw'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'n rhywbeth sy'
+speaker_0 [234.38-237.96]: Ro'n nhw'n fawr, ac ro'n nhw'n fawr iawn.
+speaker_0 [238.76-239.32]: Nid yw hynny'n anodd?
+speaker_0 [240.14-240.62]: Nid.
+speaker_0 [241.26-243.66]: Beth amser y byddai'r tyfn yn dod i mewn neu rhywbeth fel hynny?
+speaker_0 [243.92-244.78]: Roedd yn fawr iawn.
+speaker_0 [245.14-245.84]: O, iawn.
+speaker_0 [245.88-246.08]: Ie.
+speaker_0 [246.10-246.34]: Ie.
+speaker_0 [246.34-248.64]: Felly, ni fyddwch chi'n cael ffordd i fynd i fyny'n fawr?
+speaker_0 [249.64-250.12]: Ie.
+speaker_0 [250.12-250.54]: Ie.
+speaker_0 [250.54-250.62]: Ie.
+speaker_0 [250.62-251.74]: Beth arall fyddech chi'n hoffi amdanyn nhw?
+speaker_0 [253.82-254.78]: Y bwyd.
+speaker_0 [255.00-255.82]: Y bwyd Sbaenig.
+speaker_0 [256.52-257.80]: Fyddech chi'n hoffi bwyd Sbaenig?
+speaker_0 [257.80-258.00]: Ie.
+speaker_0 [258.76-259.84]: A'r gartref.
+speaker_0 [263.85-266.13]: ychydig o bwysau
+speaker_0 [266.13-266.13]: a
+speaker_0 [267.86-268.37]: pethau
+speaker_0 [268.37-270.79]: a lasagne
+speaker_0 [270.79-273.01]: a phethau fel hyn
+speaker_0 [273.01-274.75]: rydw i'n rhaid mynd i fyny
+speaker_0 [275.86-277.45]: un mwy

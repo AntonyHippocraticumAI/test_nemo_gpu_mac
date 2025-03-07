@@ -84,9 +84,17 @@ class WhisperModelManager:
         try:
             transcript_segments, info = whisper_pipeline.transcribe(
                 audio_waveform,
-                batch_size=self.batch_size,
                 beam_size=5,
-                without_timestamps=False,
+                best_of=5,
+                temperature=0,  # Более точное распознавание
+                compression_ratio_threshold=2.4,  # Регулировка для более точного разделения предложений
+                condition_on_previous_text=True,  # Учитывать предыдущий текст
+                no_speech_threshold=0.6,  # Увеличен порог для четкого разделения речи
+                without_timestamps=False,  # Важно для диаризации
+                word_timestamps=True,  # Можно включить для более детальной выверки
+                patience=1,  # Параметр для beam search
+                max_initial_timestamp=0.5,  # Максимальное смещение первого сегмента
+                suppress_blank=True,  # Подавлять пустые выводы
             )
         except Exception as e:
             raise e

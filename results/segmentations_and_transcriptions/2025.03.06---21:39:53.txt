@@ -1,0 +1,59 @@
+FUNCS:
+iou_speaker_matching
+Matching speakers based on IoU.
+
+FUNCS:
+probabilistic_speaker_matching
+Probabilistic matching of speakers
+
+FUNCS:
+graph_based_speaker_matching
+Graph matching of speakers.
+
+speaker_1 [0.40-4.94]: Tell me more about when you play football. Do you play for a team or do you just play with your friends?
+speaker_0 [5.44-11.74]: We play on a team. I'm on the A team and the other team's on the B team.
+speaker_1 [12.56-14.68]: And where do you play? What position do you play?
+speaker_1 [16.04-18.96]: We play in the football stadium.
+speaker_0 [20.96-24.22]: And whereabouts on the pitch do you play? Do you score goals or are you in goal?
+speaker_0 [24.80-26.28]: I'm in goal.
+speaker_0 [26.68-27.30]: You're in goal?
+speaker_1 [28.52-32.12]: And Thomas has got a goalkeeper's top on as well. Is he a goalkeeper as well?
+speaker_0 [33.12-34.24]: He's just wearing a top.
+speaker_1 [35.30-37.84]: And what about swimming? Do you go swimming often?
+speaker_0 [38.18-40.82]: Yeah, every week.
+speaker_1 [43.52-45.44]: Is that with the school or do you go with some friends?
+speaker_1 [45.46-48.12]: I go with my friend.
+speaker_0 [48.32-49.12]: And where do you go?
+speaker_1 [51.78-53.02]: Bridgestone's Wrecker Centre.
+speaker_1 [57.37-59.05]: Things like that, or do you just do proper swimming?
+speaker_1 [59.49-61.65]: They have slides and things.
+speaker_1 [62.19-63.23]: Do you go on those?
+speaker_1 [63.43-63.73]: Yeah.
+speaker_1 [64.23-66.19]: Tell me about the slides, what are they like?
+speaker_1 [67.09-69.59]: One of them, I'm shocked.
+speaker_1 [69.65-72.33]: My favourite one is the big, long one.
+speaker_0 [72.51-78.89]: It takes three minutes to get into the water when you're on the slide.
+speaker_1 [79.11-81.15]: Right from the top, it takes three minutes?
+speaker_0 [81.63-82.43]: From the...
+speaker_1 [83.31-103.49]: It's like from, pretend the building's that big, yeah, it's like, pretend you're all the way up the stairs, yeah, on the top floor, yeah, you have to climb in, all the way down into the pool.
+speaker_0 [103.75-105.29]: So what do you think about when you're going down?
+speaker_0 [105.83-110.83]: I just relax into, like, gold.
+speaker_0 [111.40-118.22]: down in the water aren't you scared how fast are you going how fast are you going when i'm when i
+speaker_0 [118.22-128.30]: when i'm doing the golf like i stop it and then i walk with the down you walk down yeah the thing
+speaker_0 [128.85-131.92]: how do you walk because this narrow thing how do you walk down it
+speaker_0 [131.92-139.34]: like i bend that down and i hold on to some things on the top and i walk
+speaker_0 [140.24-142.60]: So what happens if somebody's coming really fast behind you?
+speaker_0 [142.64-143.46]: They're going to catch you up.
+speaker_0 [143.78-144.18]: No.
+speaker_0 [145.26-149.14]: I'll go wait until I go around.
+speaker_0 [150.80-152.64]: And then you can let go and slide again.
+speaker_0 [152.80-153.22]: Yeah.
+speaker_0 [153.22-154.58]: When you fancy it sliding again.
+speaker_0 [156.58-157.46]: Scared me to death.
+speaker_0 [157.78-159.10]: And how far can you swim then?
+speaker_0 [160.72-165.78]: I can swim six metres, actually.
+speaker_0 [166.22-167.06]: Six metres?
+speaker_0 [168.20-169.10]: What's that in yours?
+speaker_0 [169.39-174.27]: about seven yards right and is that like a width of the pool or is that can you swim right across
+speaker_0 [174.27-183.51]: the pool or i can swim right right across it right across it sound like you're a very good swimmer
+speaker_0 [184.83-186.87]: there there is only one

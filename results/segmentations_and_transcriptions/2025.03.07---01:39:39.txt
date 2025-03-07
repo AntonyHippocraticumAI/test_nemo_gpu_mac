@@ -1,0 +1,20 @@
+FUNCS:
+probabilistic_speaker_matching
+Probabilistic matching of speakers
+
+speaker_0 [0.29-5.97]: Hello, Amy. I'm Dr. Jones. How are you doing today? I'm okay, but it hurts when I go to the bathroom, when I pee.
+speaker_1 [7.41-10.77]: That's called dysuria and it's pretty common. When did this start?
+speaker_0 [11.89-19.09]: Two days ago. Have you taken anything for it? I tried some Tylenol and drank cranberry juice. It helped.
+speaker_1 [20.77-29.89]: Have you had this before? Yes, I had this several years ago before you were my doctor. Do you remember about what year that was?
+speaker_0 [29.23-37.55]: I think it was 2018. Okay. How was it treated back then? The clinic gave me an antibiotic
+speaker_1 [38.19-45.07]: Bactrim and that made it better. Great. Is there any chance that you're pregnant? I use protection,
+speaker_0 [45.07-55.23]: but there's always a chance, I guess. And so when was your last menstrual period? Three weeks ago. Okay. I think we should check a pregnancy test just to be sure.
+speaker_0 [57.42-70.46]: Have you had any vomiting, nausea, abdominal pain, back pain, shortness of breath, blood in your urine, constipation, diarrhea, or skin rashes?
+speaker_1 [71.36-74.72]: Yes, I've had abdominal pain down low.
+speaker_0 [76.18-79.10]: And any vaginal discharge or drainage or painful intercourse?
+speaker_1 [79.76-80.04]: No.
+speaker_1 [81.50-81.82]: Okay.
+speaker_0 [81.82-84.14]: Do you have any other problems that you'd like me to address?
+speaker_1 [84.86-91.61]: No. Okay. I would like to do a simple physical exam and have you give us a urine sample.
+speaker_0 [91.61-96.89]: I will order both a pregnancy test and a urine test and that we will do now and determine
+speaker_1 [96.89-100.53]: treatment when we have the results. Does that sound okay to you?

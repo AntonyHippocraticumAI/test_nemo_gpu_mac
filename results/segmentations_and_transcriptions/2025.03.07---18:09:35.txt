@@ -1,0 +1,18 @@
+speaker_1 [0.00-2.34]: Hello, Amy. I'm Dr. Jones. How are you doing today?
+speaker_0 [2.90-5.64]: I'm okay, but it hurts when I go to the bathroom, when I pee.
+speaker_1 [7.08-10.48]: That's called dysuria, and it's pretty common. When did this start?
+speaker_0 [11.94-18.80]: Two days ago. Have you taken anything for it? I tried some Tylenol and drank cranberry juice. It helped.
+speaker_1 [20.28-21.40]: Have you had this before?
+speaker_0 [22.34-26.44]: Yes, I had this several years ago before you were my doctor.
+speaker_1 [26.82-37.54]: Do you remember about what year that was? I think it was 2018. Okay. How was it treated back then? The clinic gave me an antibiotic
+speaker_1 [38.42-44.70]: Bactrom and that made it better. Great. Is there any chance that you're pregnant? I use protection,
+speaker_0 [44.94-49.26]: but there's always a chance, I guess. And so when was your last menstrual period?
+speaker_1 [50.34-55.70]: Three weeks ago. Okay. I think we should check a pregnancy test just to be sure.
+speaker_1 [57.84-71.30]: Have you had any vomiting, nausea, abdominal pain, back pain, shortness of breath, blood in your urine, constipation, diarrhea, or skin rashes?
+speaker_0 [72.12-75.44]: Yes, I've had abdominal pain down low.
+speaker_1 [76.26-79.60]: And any vaginal discharge or drainage or painful intercourse?
+speaker_0 [79.96-80.42]: No.
+speaker_1 [81.46-84.26]: Okay. Do you have any other problems that you'd like me to address?
+speaker_0 [84.68-86.08]: No. Okay.
+speaker_1 [86.56-97.78]: would like to do a simple physical exam and have you give us a urine sample. I will order both a pregnancy test and a urine test and that we will do now and determine treatment when
+speaker_0 [97.78-99.68]: we have the results. Does that sound okay to you?

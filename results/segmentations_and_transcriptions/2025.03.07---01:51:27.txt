@@ -1,0 +1,44 @@
+speaker_1 [2.11-2.61]: Hello, Amy. I'm Dr. Jones. How are you doing today?
+speaker_1 [3.33-4.45]: I'm okay, but it hurts when I go to the bathroom, when I pee.
+speaker_0 [7.41-9.29]: That's called dysuria and it's pretty
+speaker_1 [10.67-10.77]: common. When did this start?
+speaker_1 [11.89-13.97]: Two days ago. Have you taken a
+speaker_0 [14.41-15.01]: nything for it?
+speaker_1 [16.93-18.37]: I tried some Tylenol and dr
+speaker_0 [18.77-19.09]: ank cranberry juice. It helped.
+speaker_0 [20.77-22.13]: Have you had this b
+speaker_1 [23.39-24.63]: efore? Yes, I had
+speaker_0 [24.89-25.09]: this several years ago
+speaker_0 [25.09-28.97]: before you were my doctor. Do you remember about what year that was?
+speaker_1 [30.11-31.85]: I think it was 2018
+speaker_0 [32.35-34.91]: . Okay. How was it treated
+speaker_1 [36.25-37.55]: back then? The clinic gave me an antibiotic
+speaker_1 [38.19-38.53]: Bactr
+speaker_0 [38.77-43.51]: im and that made it better. Great. Is there any chance that you're p
+speaker_1 [44.39-45.07]: regnant? I use protection,
+speaker_1 [45.07-47.27]: but there's always a chance, I guess. And so
+speaker_0 [47.27-49.15]: when was your last menstrual period?
+speaker_0 [49.87-50.49]: Three wee
+speaker_1 [51.45-53.31]: ks ago. Okay. I think we sho
+speaker_0 [53.65-54.97]: uld check a pregnancy test just to be sure.
+speaker_1 [57.42-59.23]: Have you had any vo
+speaker_0 [59.71-60.07]: miti
+speaker_1 [60.45-63.51]: ng, nausea, abdominal pain, back
+speaker_1 [63.87-65.74]: pain, shortness of breath, blood
+speaker_1 [65.74-67.67]: in your urine, constip
+speaker_1 [68.13-70.46]: ation, diarrhea, or skin rashes?
+speaker_1 [71.36-73.33]: Yes, I've had abdomina
+speaker_0 [73.73-74.72]: l pain down low.
+speaker_0 [76.18-77.29]: And any vaginal dischar
+speaker_1 [78.53-79.10]: ge or drainage or painful intercourse?
+speaker_1 [79.76-80.04]: No.
+speaker_0 [81.77-81.82]: Okay.
+speaker_0 [81.82-82.11]: Do you h
+speaker_1 [83.13-84.14]: ave any other problems that you'd like me to address?
+speaker_1 [84.86-85.10]: No.
+speaker_1 [85.82-85.97]: Okay.
+speaker_0 [86.61-86.99]: I woul
+speaker_1 [88.17-91.61]: d like to do a simple physical exam and have you give us a urine sample.
+speaker_1 [91.61-96.89]: I will order both a pregnancy test and a urine test and that we will do now and determine
+speaker_1 [96.89-98.89]: treatment when we have the results.
+speaker_1 [98.89-100.53]: Does that sound okay to you?

@@ -1,0 +1,41 @@
+FUNCS:
+iou_speaker_matching
+Matching speakers based on IoU.
+
+FUNCS:
+probabilistic_speaker_matching
+Probabilistic matching of speakers
+
+FUNCS:
+graph_based_speaker_matching
+Graph matching of speakers.
+
+speaker_1 [1.81-4.13]: Hello, Amy. I'm Dr. Jones. How are you doing today?
+speaker_0 [6.19-8.97]: I'm okay, but it hurts when I go to the bathroom when I pee.
+speaker_1 [10.37-13.79]: That's called dysuria and it's pretty common. When did this start?
+speaker_0 [14.59-18.07]: Two days ago. Have you taken anything for it?
+speaker_0 [18.65-21.87]: I tried some Tylenol and drank cranberry juice. It helped.
+speaker_0 [23.07-28.71]: Have you had this before? Yes, I had this several years ago before you were my doctor.
+speaker_1 [29.80-31.50]: Do you remember about what year that was?
+speaker_0 [32.32-34.42]: I think it was 2018.
+speaker_1 [35.94-36.42]: Okay.
+speaker_1 [36.62-38.12]: How was it treated back then?
+speaker_0 [38.84-43.32]: The clinic gave me an antibiotic Bactrim and that made it better.
+speaker_1 [44.04-44.52]: Great.
+speaker_1 [44.98-46.56]: Is there any chance that you're pregnant?
+speaker_0 [47.34-50.16]: I use protection, but there's always a chance, I guess.
+speaker_1 [51.16-52.90]: So when was your last menstrual period?
+speaker_0 [53.82-54.74]: Three weeks ago.
+speaker_1 [55.94-56.42]: Okay.
+speaker_1 [60.84-68.24]: Have you had any vomiting, nausea, abdominal pain, back pain, shortness of breath, blood
+speaker_1 [68.24-72.94]: in your urine, constipation, diarrhea, or skin rashes?
+speaker_0 [73.70-77.00]: Yes, I've had abdominal pain down low.
+speaker_1 [78.00-81.30]: And any vaginal discharge or drainage or painful intercourse?
+speaker_0 [81.56-81.92]: No.
+speaker_1 [82.80-83.36]: Okay.
+speaker_1 [83.40-85.56]: Do you have any other problems that you'd like me to address?
+speaker_0 [86.14-86.70]: No.
+speaker_1 [88.43-92.49]: I would like to do a simple physical exam and have you give us a urine sample.
+speaker_1 [93.29-98.69]: I will order both a pregnancy test and a urine test and that we will do now and determine
+speaker_1 [98.69-100.55]: treatment when we have the results.
+speaker_1 [100.75-101.81]: Does that sound okay to you?

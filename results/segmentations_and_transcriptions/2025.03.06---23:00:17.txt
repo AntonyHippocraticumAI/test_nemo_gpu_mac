@@ -1,0 +1,19 @@
+FUNCS:
+iou_speaker_matching
+Matching speakers based on IoU.
+
+FUNCS:
+probabilistic_speaker_matching
+Probabilistic matching of speakers
+
+FUNCS:
+graph_based_speaker_matching
+Graph matching of speakers.
+
+speaker_0 [0.40-27.98]: Tell me more about when you play football. Do you play for a team or do you just play with your friends? We play on a team. I'm on the A team and the other team's on the B team. Right. And where do you play? What position do you play? We play in the football stadium. And whereabouts on the pitch do you play? Do you score goals or are you in goal? I'm in goal. You're in goal?
+speaker_0 [28.37-57.38]: And Thomas has got a goalkeeper's top on as well. Is he a goalkeeper as well? He's just wearing a top. Yeah. And what about swimming? Do you go swimming often? Yeah. Every week. Is that with the school or do you go with your friend? I go with my friend. And where do you go? Bridgestone's Wrecker Centre. And have they got slides?
+speaker_1 [57.38-82.66]: Things like that, or do you just do proper swimming? They have slides and things. Do you go on those? Yeah. Tell me about the slides. What are they like? One of them, I'm shocked. My favourite one is the big, long one. It takes three minutes to get into the water when you're on the slide. Right from the top? It takes three minutes? From the...
+speaker_1 [82.66-111.41]: It's like from, pretend the building's that big, yeah, it's like, pretend you're all the way up the stairs, yeah? Yeah. Yeah, on the top floor. Right. Yeah, you have to climb in, all the way down into the pool. So what do you think about when you're going down? Hmm? I just relax into, like, gold.
+speaker_0 [111.41-139.98]: down in the water. Aren't you scared? Mm-mm. How fast are you going? Hmm? How fast are you going? When I'm, when I, when I'm going to go, like, I stop it, and then I walk the down. You walk down? Yeah, the thing. How do you walk, because it's a narrow thing, how do you walk down it? Like, I bend the down, and I hold onto some things on the top, and I walk.
+speaker_0 [140.24-169.39]: So what happens if somebody's coming really fast behind you? Are they going to catch you up? No. I go wait until I go around. And then you can let go and slide again. Yeah. When you fancy it sliding again. Scared me today. And how far can you swim then? I can swim six metres, actually. Six metres? What's that in yours?
+speaker_0 [169.39-187.04]: about seven yards right and is that like a width of the pool or is that can you swim right across the pool or i can swim right right across it right across it sound like you're a very good swimmer there there is only one

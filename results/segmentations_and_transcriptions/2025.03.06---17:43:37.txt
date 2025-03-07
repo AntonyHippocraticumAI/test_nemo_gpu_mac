@@ -1,0 +1,86 @@
+FUNCS:
+iou_speaker_matching
+Matching speakers based on IoU.
+
+FUNCS:
+probabilistic_speaker_matching
+Probabilistic matching of speakers
+
+FUNCS:
+graph_based_speaker_matching
+Graph matching of speakers.
+
+speaker_1 [0.00-8.26]: yeah good morning mr harris uh before we get started can i confirm your birthday
+speaker_1 [8.98-13.66]: uh yeah sure um so my birthday is in november 3rd 1987
+speaker_0 [16.02-24.24]: great great so um how can i help you today yeah look um basically i'm just uh experiencing severe
+speaker_1 [29.36-33.98]: It's been happening for the last couple of days and it kind of comes and goes, but when
+speaker_0 [33.98-36.06]: it's there, it's really, really bad and painful.
+speaker_0 [37.30-43.36]: I'm also feeling nauseous and I guess most scarily of all, I, I, I not just some blood
+speaker_0 [43.36-43.94]: in my urine.
+speaker_1 [44.70-45.14]: Yeah.
+speaker_1 [45.26-46.28]: I'm kind of worried about that.
+speaker_0 [47.04-48.92]: Yeah, I can, that's definitely concerning.
+speaker_0 [49.10-52.34]: So let, let's let me ask you a few questions.
+speaker_1 [56.80-64.44]: uh you know frequency or urgency or any kind of difficulty passing urine um no not not really
+speaker_1 [64.44-70.84]: i mean i've noticed that my urine has the output has slightly decreased but
+speaker_0 [70.84-80.20]: yeah no difficulty or pain nothing okay um have you ever had a similar episode in the past
+speaker_1 [80.20-85.12]: oh no no uh this is the first time i would have remembered if i had something like this before
+speaker_1 [86.09-92.35]: i see um have you has there been any recent trauma or injury to your
+speaker_1 [92.35-101.29]: your back or abdomen or anything in your in your midsection no not really doctor i i haven't had
+speaker_0 [101.29-107.95]: any no i haven't had any recent injuries um the pain kind of just appeared out of nowhere
+speaker_0 [109.07-114.01]: i see okay so i think we should run some tests
+speaker_0 [114.70-120.04]: But based on your symptoms, I think you might have kidney stones.
+speaker_0 [120.22-124.10]: I think we might be that that might be the thing we're dealing with, you know, especially
+speaker_0 [124.10-131.10]: this the back pain, the the especially the presence of blood in the urine is indicative
+speaker_0 [131.10-133.24]: of this typical of this condition.
+speaker_0 [133.56-135.90]: But let's confirm with some tests.
+speaker_0 [135.98-138.68]: But I think that's where I think that's what we're looking at.
+speaker_0 [140.48-141.78]: OK, kidney stones.
+speaker_0 [144.32-148.54]: I've heard of them. Some of my family members had them, never thought I would have them.
+speaker_0 [149.98-152.58]: But yeah, what what tests should we do?
+speaker_0 [153.64-166.24]: So first, we'll need to analyze your urine for signs of infection or stones that we can do today should be, you know, once we finish up, the nurse will come in, she'll do a quick urine, you know, urine poll.
+speaker_0 [167.15-174.79]: should be relatively quick. The other thing that I want to run is a blood test. I just want to
+speaker_0 [174.79-179.57]: confirm that there's nothing going wrong with your kidney function, just to make sure everything's
+speaker_0 [179.57-183.69]: kind of, you know, your blood is still being filtered and cleaned. Your kidneys are still
+speaker_0 [183.69-189.57]: performing basically. The thing we'll do, again, that blood test, the nurse will come in later.
+speaker_0 [189.65-195.21]: She can pull that before you leave today. So after we run those tests, it should be about
+speaker_0 [195.74-201.86]: a day, maybe two days to before we get an answer. Uh, but you know, we'll get an answer. We can
+speaker_0 [201.86-208.66]: plan on, uh, after that, what I'll also do is I'm going to, I'm going to schedule you a follow-up
+speaker_0 [208.66-214.80]: for a renal ultrasound. What this will do is this, this is typically, uh, you know, they'll,
+speaker_0 [214.80-220.90]: they'll visualize your, your kidneys. And if there are any large stones, we'll get a clear picture on
+speaker_0 [220.90-223.86]: how many, how big they are, that sort of thing.
+speaker_0 [225.06-228.56]: So nothing, you know, just some initial tests, nothing invasive.
+speaker_0 [229.66-234.68]: Okay. Okay. Yeah. I mean, I'm happy that we'll be able to figure out what's happening.
+speaker_0 [234.78-236.60]: Really want to get rid of this pain.
+speaker_0 [237.52-243.06]: What should I expect in terms of treatment if we confirm that these are kidney stones?
+speaker_0 [243.90-247.86]: So kidney stones are very treatable, very typical problem.
+speaker_0 [248.06-250.86]: It happens in a large segment of the population.
+speaker_0 [250.86-252.98]: So it's nothing to be afraid of.
+speaker_0 [253.61-259.65]: In terms of treatment, a lot of times it's as simple as, you know, increasing your hydration,
+speaker_0 [259.89-263.67]: you know, being very dedicated in increasing your hydration.
+speaker_0 [263.73-267.87]: Like I want, you know, ideally you'll be drinking like at least almost half a gallon
+speaker_0 [267.87-269.21]: of water a day, maybe more.
+speaker_0 [269.27-272.93]: And we can, we can kind of, I'll do the, you know, we'll have a bit of a look on exactly
+speaker_0 [272.93-278.81]: how much you should be taking, but really over hydrating, some pain management.
+speaker_0 [280.08-284.50]: you know, if we confirm the diagnosis, typically, you know, we'll give you a prescription for some
+speaker_0 [284.50-295.06]: pain management, uh, uh, drugs. And then, uh, ideally you just pass the stones naturally as
+speaker_0 [295.06-300.84]: part of that process. Um, they'll, Oh, sorry. There's also some medications around just making
+speaker_0 [300.84-306.22]: it easier to pass the stones in your urine. So some medications that'll help break down the stones
+speaker_0 [308.75-314.95]: hopefully they're small and they just pass through. Um, so a lot of the times it's just
+speaker_0 [314.95-322.35]: medication in some cases, I would say, uh, you know, a good chunk of cases, uh, if the stones
+speaker_0 [322.35-327.57]: are a little too large or if they're causing some complications, we, one of the things we'll
+speaker_0 [327.57-333.91]: do is, uh, we'll probably do is a shockwave lithotripsy. Okay. That's where you're suspended
+speaker_0 [335.32-341.38]: in a water, effectively a liquid bath, and essentially ultrasonic waves are shot at the
+speaker_0 [342.16-348.10]: stones in your kidneys with the goal of essentially breaking them up and making them smaller so that
+speaker_0 [348.10-355.92]: you can pass them normally. In very rare circumstances, we may also have to schedule
+speaker_0 [360.35-365.87]: case but you know we'll have to see based on the results of the test but i wouldn't worry too much
+speaker_0 [365.87-370.83]: about it it's pretty standard there's not that you know that's uh it's a very well understood
+speaker_0 [371.51-375.87]: both a well understood disease and also a well understood process so it's nothing life
+speaker_0 [375.87-381.73]: threatening nothing to worry about okay thank you thanks for clarifying that yeah let's definitely
+speaker_0 [381.73-386.57]: hope it's not going to be any surgical but uh yeah i really really appreciate the explanation
+speaker_0 [390.16-396.26]: let's move forward with this then okay so i'll uh i'll uh call in the nurse she'll finish up the
+speaker_0 [396.26-400.10]: you know i'll finish up a little bit of my write-up call the nurse she'll take your tests
+speaker_0 [400.10-405.16]: we should know we should have pretty good confirmation within 24 hours 24 to 48 hours
+speaker_0 [405.16-410.72]: once the lab results come back um and then we can schedule you for the follow-up stuff there
+speaker_0 [410.72-416.22]: and if you go to the front desk they'll schedule you for the ultrasound okay okay great thank you
+speaker_0 [418.28-422.50]: yeah have a good day thank you uh have a good day bye

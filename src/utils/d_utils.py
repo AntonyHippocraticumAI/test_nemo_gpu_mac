@@ -118,102 +118,63 @@ class DiarizationService:
         return matched_segments
 
     @classmethod
-    def weighted_ensemble_speaker_matching(
-        cls,
-        whisper_segments: List[Dict],
-        diar_segments: List[Dict]
+    def ensemble_speaker_matching(
+            cls,
+            whisper_segments: List[Dict],
+            diar_segments: List[Dict],
+            methods: List[typing.Callable] = None
     ) -> List[Dict]:
-        """Weighted ensemble matching of speakers with transition awareness."""
+        """Ensemble-метод зіставлення спікерів."""
+        if methods is None:
+            methods = [
+                # cls.iou_speaker_matching,
+                cls.probabilistic_speaker_matching,
+                # cls.graph_based_speaker_matching
+            ]
+
         final_matched_segments = []
-        
-        # Define weights for different methods
-        method_weights = {
-            cls.iou_speaker_matching: 2.0,  # Higher weight for IoU
-            cls.probabilistic_speaker_matching: 1.0,
-            cls.graph_based_speaker_matching: 1.5
-        }
-        
-        # Add context awareness
-        previous_speaker = None
-        speaker_change_penalty = 0.3  # Penalty for changing speakers too frequently
-        
-        for i, wseg in enumerate(whisper_segments):
-            speaker_scores = {}
-            
-            # Apply different methods with weights
-            for method, weight in method_weights.items():
-                # For IoU method, pass appropriate threshold
-                if method == cls.iou_speaker_matching:
-                    matched_seg = method([wseg], diar_segments, iou_threshold=0.2)[0]
-                else:
-                    matched_seg = method([wseg], diar_segments)[0]
-                    
+
+        for wseg in whisper_segments:
+            speaker_votes = {}
+
+            # Застосування різних методів
+            for method in methods:
+                matched_seg = method([wseg], diar_segments)[0]
                 speaker = matched_seg['speaker']
                 if speaker != 'UNK':
-                    speaker_scores[speaker] = speaker_scores.get(speaker, 0) + weight
-            
-            # Apply context awareness - favor previous speaker with a small penalty
-            if previous_speaker and previous_speaker in speaker_scores:
-                # Look at text to detect potential speaker changes
-                is_likely_new_speaker = False
-                
-                # If this segment is very short or contains typical transition phrases
-                transition_phrases = ["okay", "thank", "yes", "yeah", "right", "so", "um"]
-                if wseg['end'] - wseg['start'] < 1.5 or any(phrase in wseg['text'].lower() for phrase in transition_phrases):
-                    is_likely_new_speaker = True
-                    
-                if not is_likely_new_speaker:
-                    speaker_scores[previous_speaker] += speaker_change_penalty
-            
-            # Choose the speaker with the highest score
-            best_speaker = max(speaker_scores, key=speaker_scores.get) if speaker_scores else 'UNK'
-            previous_speaker = best_speaker
-            
+                    speaker_votes[speaker] = speaker_votes.get(speaker, 0) + 1
+
+            # Вибір спікера з найбільшою кількістю голосів
+            best_speaker = max(speaker_votes, key=speaker_votes.get) if speaker_votes else 'UNK'
+
             final_matched_segments.append({
                 **wseg,
                 'speaker': best_speaker
             })
-        
+
         return final_matched_segments
 
     @staticmethod
-    def improved_merge_adjacent_segments(
+    def merge_adjacent_segments(
             segments: List[Dict],
-            max_gap: float = 0.8,  # Reduced from 1.0
-            max_segment_duration: float = 8.0,  # Reduced from 10.0
-            min_transition_gap: float = 1.5  # New parameter for likely speaker transitions
+            max_gap: float = 1.0,
+            max_segment_duration: float = 10.0
     ) -> List[Dict]:
-        """Improved segment merging with better detection of speaker transitions."""
+        """Злиття суміжних сегментів."""
         if not segments:
             return segments
 
         merged = [segments[0]]
         for current in segments[1:]:
             prev = merged[-1]
-            
-            # Conditions for merging
+
+            # Умови для злиття
             speaker_match = current['speaker'] == prev['speaker']
-            gap = current['start'] - prev['end']
-            
-            # Check for likely speaker transitions based on text content
-            likely_speaker_transition = False
-            transition_phrases = ["okay", "thank", "yes", "yeah", "right", "so", "um", "i see", "i understand"]
-            
-            # If current segment starts with transition phrase or previous ends with one
-            if any(prev['text'].lower().strip().endswith(phrase) for phrase in transition_phrases) or \
-            any(current['text'].lower().strip().startswith(phrase) for phrase in transition_phrases):
-                likely_speaker_transition = True
-            
-            # Larger gaps are more likely to indicate speaker transitions
-            if gap > min_transition_gap:
-                likely_speaker_transition = True
-                
-            # Current duration check
+            gap_small = current['start'] - prev['end'] <= max_gap
             duration_ok = (current['end'] - current['start']) <= max_segment_duration
-            combined_duration_ok = (current['end'] - prev['start']) <= max_segment_duration * 1.5
-            
-            if speaker_match and gap <= max_gap and duration_ok and combined_duration_ok and not likely_speaker_transition:
-                # Extend previous segment
+
+            if speaker_match and gap_small and duration_ok:
+                # Розширюємо попередній сегмент
                 prev['end'] = current['end']
                 prev['text'] += ' ' + current['text']
             else:
@@ -235,16 +196,10 @@ class DiarizationService:
         os.makedirs(os.path.dirname(RESULT_FILE_NAME), exist_ok=True)
 
         with open(f"{RESULT_FILE_NAME}.txt", 'w', encoding='utf-8') as f:
-            if methods is None:
-                methods = [
-                DiarizationService.iou_speaker_matching,
-                DiarizationService.probabilistic_speaker_matching,
-                DiarizationService.graph_based_speaker_matching
-            ]
-            for func_diarization in methods:
-                f.write("FUNCS:\n")
-                f.write(f"{func_diarization.__name__}\n")
-                f.write(f"{func_diarization.__doc__}\n\n")
+            # for func_diarization in methods:
+            #     f.write("FUNCS:\n")
+            #     f.write(f"{func_diarization.__name__}\n")
+            #     f.write(f"{func_diarization.__doc__}\n\n")
 
             for seg in final_merged:
                 line = f"{seg['speaker']} [{seg['start']:.2f}-{seg['end']:.2f}]: {seg['text']}\n"
