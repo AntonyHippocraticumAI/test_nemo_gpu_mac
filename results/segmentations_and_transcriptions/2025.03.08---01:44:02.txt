@@ -1,0 +1,46 @@
+speaker_1 [0.00-1.22]:  new  school?
+speaker_0 [2.28-4.52]:  It's  called  Bishop  Ramsay.
+speaker_0 [5.40-6.92]:  It's  really  nice.
+speaker_1 [7.80-10.36]:  Are  some  of  your  friends  going?
+speaker_0 [10.74-12.34]:  Yeah.  It
+speaker_1 [12.34-13.28]:  won't  be  too  bad.
+speaker_0 [13.44-15.86]:  Yeah,  it  won't  be  too  bad.
+speaker_1 [16.98-19.32]:  And  what  are  you  going  to  do  for  the  rest  of  the  summer?
+speaker_0 [19.80-24.90]:  I'm  going  to  New  York  for  two  weeks  and  a  bit.
+speaker_1 [25.18-26.04]:  What  are  you  going
+speaker_0 [29.90-31.50]:  My  aunt  and  uncle.
+speaker_1 [31.76-33.94]:  That  sounds  good.  Where  are  you  going?  My
+speaker_0 [33.94-39.04]:  cousin's.  I  don't  know.  I  forgot.  I  don't  know.  I  forgot.
+speaker_0 [41.10-41.56]:  But
+speaker_1 [41.56-43.20]:  it  sounds  like  it's  going  to  be  soon.
+speaker_0 [43.44-43.82]:  Yeah.
+speaker_1 [44.50-46.10]:  And  what  else  are  you  going  to  do  in  the  summer?
+speaker_0 [46.28-46.62]:  I  don't  know.
+speaker_1 [46.78-49.64]:  Do  you  do  any  dance  shows?  Do  you  do  any  shows?
+speaker_0 [49.86-55.16]:  Yeah.  I  did  a  show  in  one  of  the  schools.
+speaker_0 [56.78-57.24]:  Yeah.
+speaker_1 [57.71-58.85]:  And  what  did  you  do?  Did  you  dance  there?
+speaker_0 [59.07-71.09]:  We  did  street  dancing  and  we  did  all  of  these  boys  and  all  the  girls  were  there  as  well.  So
+speaker_1 [71.09-72.51]:  there's  lots  of  you  on  the  stage  at  the  same
+speaker_0 [72.51-72.97]:  time?  Yeah.
+speaker_1 [73.43-76.39]:  What's  your  favourite  music?  What's  your  music  being  like?
+speaker_0 [76.69-78.09]:  I  don't  have  one.  You
+speaker_1 [78.09-79.25]:  don't?  Just  anything?
+speaker_0 [79.59-85.59]:  Not  anything  but  I  don't  have  a  favourite  one  because  I  like...
+speaker_1 [86.96-88.72]:  We  like  different  things,  but  not  everything.
+speaker_0 [88.94-90.18]:  Yeah,  I  think.
+speaker_1 [90.70-95.32]:  And  where's  the  favourite  place  you've  ever  been?  Where  would  you  really  like  to  go  back?
+speaker_0 [95.40-97.50]:  Cuba  and  Jamaica.  What
+speaker_1 [97.50-99.36]:  do  you  like  about  Cuba  and  Jamaica?
+speaker_0 [99.58-110.04]:  Jamaica  is  like  really  hot  and  yeah.  And  most  of  my  cousins  is  there.  And  Canada.
+speaker_1 [110.56-111.44]:  But  Canada?
+speaker_0 [111.84-113.28]:  No,  I'm  a  daddy.
+speaker_1 [114.59-115.65]:  But  you've  got  cousins  in  Canada?
+speaker_0 [116.45-116.55]:  Yeah.
+speaker_1 [116.89-119.59]:  And  Cuba?  Do  you  have  people
+speaker_0 [119.59-131.05]:  in  Cuba?  No.  It's  just  like  nice,  like  really  nice.  I  was  in  a  show  then.  You  were  what,  sorry?  In  a  show.
+speaker_1 [131.81-132.67]:  What,  in  Cuba?
+speaker_0 [132.77-136.89]:  Yeah.  Wow.  And  this.
+speaker_0 [139.05-142.91]:  this  um  drink  called  peanut  gratin  art  isn't  this  nice
+speaker_0 [144.43-145.19]:  nice
+speaker_1 [146.83-148.77]:  you  like  that  peanut

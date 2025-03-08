@@ -1,0 +1,25 @@
+speaker_1 [0.00-2.34]:  Hello,  Amy.  I'm  Dr.  Jones.  How  are  you  doing  today?
+speaker_0 [2.90-5.64]:  I'm  okay,  but  it  hurts  when  I  go  to  the  bathroom,  when  I  pee.
+speaker_1 [7.08-10.48]:  That's  called  dysuria,  and  it's  pretty  common.  When  did  this  start?
+speaker_0 [11.94-13.82]:  Two  days  ago.  Have
+speaker_1 [13.82-14.84]:  you  taken  anything  for  it?
+speaker_0 [15.62-18.80]:  I  tried  some  Tylenol  and  drank  cranberry  juice.  It  helped.
+speaker_1 [20.28-21.40]:  Have  you  had  this  before?
+speaker_0 [22.34-27.24]:  Yes,  I  had  this  several  years  ago  before  you  were  my  doctor.  Do
+speaker_1 [27.24-28.58]:  you  remember  about  what  year  that  was?
+speaker_0 [29.40-32.72]:  I  think  it  was  2018.  Okay.
+speaker_1 [32.92-34.40]:  How  was  it  treated  back  then?
+speaker_0 [35.44-37.54]:  The  clinic  gave  me  an  antibiotic
+speaker_0 [38.42-39.92]:  Bactrom  and  that  made  it  better.
+speaker_1 [40.32-44.12]:  Great.  Is  there  any  chance  that  you're  pregnant?  I
+speaker_0 [44.12-46.44]:  use  protection,  but  there's  always  a  chance,  I  guess.
+speaker_1 [47.36-49.26]:  And  so  when  was  your  last  menstrual  period?
+speaker_0 [50.34-51.28]:  Three  weeks  ago.
+speaker_0 [52.76-53.24]:  Okay.
+speaker_1 [53.34-55.70]:  I  think  we  should  check  a  pregnancy  test  just  to  be  sure.
+speaker_1 [57.84-71.30]:  Have  you  had  any  vomiting,  nausea,  abdominal  pain,  back  pain,  shortness  of  breath,  blood  in  your  urine,  constipation,  diarrhea,  or  skin  rashes?
+speaker_0 [72.12-75.44]:  Yes,  I've  had  abdominal  pain  down  low.
+speaker_1 [76.26-80.42]:  And  any  vaginal  discharge  or  drainage  or  painful  intercourse?  No.
+speaker_1 [81.46-85.26]:  Okay.  Do  you  have  any  other  problems  that  you'd  like  me  to  address?  No.
+speaker_0 [85.50-86.08]:  Okay.
+speaker_1 [86.56-99.68]:  would  like  to  do  a  simple  physical  exam  and  have  you  give  us  a  urine  sample.  I  will  order  both  a  pregnancy  test  and  a  urine  test  and  that  we  will  do  now  and  determine  treatment  when  we  have  the  results.  Does  that  sound  okay  to  you?

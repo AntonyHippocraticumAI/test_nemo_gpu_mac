@@ -25,30 +25,30 @@ OUT_DIR = os.path.join(ROOT_DIR, "diar_output")
 def main():
     ##########################################################################
     whisper_model_manager = preload_models()
-    vad_model_manager = preload_vad_model()
+    # vad_model_manager = preload_vad_model()
     logger.info("Loaded VAD and WHISPER models")
     ##########################################################################
-    audio_without_vad, sr = vad_model_manager.get_audio_time_series(AUDIO_PATH)
-    logger.info(f"AUDIO: {audio_without_vad}")
+    # audio_without_vad, sr = vad_model_manager.get_audio_time_series(AUDIO_PATH)
+    # logger.info(f"AUDIO: {audio_without_vad}")
 
-    params_vad = vad_model_manager.get_params_for_vad_model(audio_without_vad, sr, window_length=0.2, onset_thresh=0.5, min_speech_dur=0.2)
-    logger.info(f"PARAMS VAD: {params_vad}")
+    # params_vad = vad_model_manager.get_params_for_vad_model(audio_without_vad, sr, window_length=0.2, onset_thresh=0.5, min_speech_dur=0.2)
+    # logger.info(f"PARAMS VAD: {params_vad}")
 
-    segments = vad_model_manager.get_speech_segments(**params_vad)
-    logger.info(f"SEGMENTS: {segments}")
+    # segments = vad_model_manager.get_speech_segments(**params_vad)
+    # logger.info(f"SEGMENTS: {segments}")
 
-    audio_data = vad_model_manager.get_ndarray_of_segments(audio_without_vad, segments, sr)
-    logger.info(f"CLEANED AUDIO: {audio_data}")
+    # audio_data = vad_model_manager.get_ndarray_of_segments(audio_without_vad, segments, sr)
+    # logger.info(f"CLEANED AUDIO: {audio_data}")
 
 
-    from scipy.io.wavfile import write
-    import numpy as np
+    # from scipy.io.wavfile import write
+    # import numpy as np
 
-    if audio_data.dtype != np.int16:
-        audio_data = audio_data / np.max(np.abs(audio_data))
-        audio_data = np.int16(audio_data * 32767)
+    # if audio_data.dtype != np.int16:
+    #     audio_data = audio_data / np.max(np.abs(audio_data))
+    #     audio_data = np.int16(audio_data * 32767)
 
-    write("output.wav", 16000, audio_data)
+    # write("output.wav", 16000, audio_data)
 
     ##########################################################################
 
@@ -56,8 +56,13 @@ def main():
     ##########################################################################
     # A) TRANSCRIPTION WHISPER
     ##########################################################################
-    audio, sr = librosa.load("output.wav", sr=16000)
+    audio, sr = librosa.load(AUDIO_PATH, sr=16000)
     logger.info(f"Loaded audio {AUDIO_PATH}, sr={sr}, duration={len(audio)/sr:.1f}s")
+
+    filename = os.path.splitext(os.path.basename(AUDIO_PATH))[0]
+
+    print("HEEEEEEEEEEEERE", filename)
+    
 
     logger.info("=== WHISPER STEP ===")
     ##########################################################################
@@ -68,6 +73,9 @@ def main():
     logger.info(segments_gen)
     whisper_segments = whisper_model_manager.produced_segments(segments_gen)
 
+    for segment_transcription in whisper_segments:
+        logger.info(segment_transcription)
+
     logger.info(f"Whisper produced {len(whisper_segments)} segments.")
     logger.info("=== WHISPER STEP FINISHED ===")
 
@@ -76,7 +84,7 @@ def main():
     ##########################################################################
 
     # 1) Create manifest (JSON) for one audio
-    create_manifest("output.wav", MANIFEST_PATH, FORCE_SPEAKERS)
+    create_manifest(AUDIO_PATH, MANIFEST_PATH, FORCE_SPEAKERS)
 
     # 2) Create config for NeuralDiarizer
     #    enable_msdd=True -> Use MSDD (Multi-scale diarization decoder)
@@ -93,22 +101,30 @@ def main():
 
     # Format: SPEAKER <audio_name> 1 <start_time> <duration> <..> <..> <speaker_label>
     rttm_utils = RttmUtils(OUT_DIR)
-    rttm_utils.check_the_results_of_diarization(file_name="output.rttm")
+    rttm_utils.check_the_results_of_diarization(file_name=filename)
 
     diar_segments = rttm_utils.format_diarization_rttm()
+
+    for diar_segment in diar_segments:
+        logger.info(diar_segments)
 
     # Merging diar_segments with whisper_segments
     # Each Whisper segment (wseg) can overlap with several diar segments.
 
     # methods = [DiarizationService.probabilistic_speaker_matching]
 
-    matched_segments = DiarizationService.ensemble_speaker_matching(
-        whisper_segments,
-        diar_segments,
-        # methods=methods,
+    word_level_segments = DiarizationService.word_level_alignment(
+        whisper_segments,  # c полем "words"
+        diar_segments      # [{start, end, speaker}, ...]
     )
 
-    final_merged = DiarizationService.merge_adjacent_segments(matched_segments)
+    # 2) Склеиваем в более крупные фразы
+    final_merged = DiarizationService.merge_word_level_results(word_level_segments)
+
+    # 3) (Опционально) Можно ещё раз прогнать ваш merge_adjacent_segments, если нужно
+    #    или оставить merge_word_level_results как основную "склейку".
+    # final_merged = DiarizationService.merge_adjacent_segments(final_merged)
+
 
     ##########################################################################
     # D) Final merge

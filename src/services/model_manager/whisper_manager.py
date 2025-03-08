@@ -84,6 +84,7 @@ class WhisperModelManager:
         try:
             transcript_segments, info = whisper_pipeline.transcribe(
                 audio_waveform,
+                batch_size=8,
                 beam_size=5,
                 best_of=5,
                 temperature=0,  # Более точное распознавание
@@ -105,10 +106,21 @@ class WhisperModelManager:
     def produced_segments(self, segments_generation):
         whisper_segments = []
         for seg in segments_generation:
+            # Список слов: [{'word': "...", 'start': ..., 'end': ...}, ...]
+            words_info = []
+            if seg.words:
+                for w in seg.words:
+                    words_info.append({
+                        "word": w.word,
+                        "start": w.start,
+                        "end": w.end
+                    })
+
             whisper_segments.append({
                 "start": seg.start,
                 "end": seg.end,
                 "text": seg.text.strip().replace("\n", " "),
+                "words": words_info
             })
         return whisper_segments
 

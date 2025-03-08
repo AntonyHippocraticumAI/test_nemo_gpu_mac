@@ -1,12 +1,12 @@
 import torch
 
 # Name of the audio file
-AUDIO_PATH_NORMALIZED = "normalized_loudness.wav"
+# AUDIO_PATH = "normalized_loudness.wav"
 
-AUDIO_PATH = "audio_samples/split_audio_files/ravi_inva/part1.wav"
+# AUDIO_PATH = "audio_samples/split_audio_files/ravi_inva/part1.wav"
 
 # AUDIO_PATH = "audio_samples/F_1211_11y3m_1.wav"
-# AUDIO_PATH = "audio_samples/M_0234_9y9m_1.wav"
+AUDIO_PATH = "audio_samples/M_0234_9y9m_1.wav"
 # AUDIO_PATH = "audio_samples/M_0817_10y4m_1.wav"
 # AUDIO_PATH = "audio_samples/M_0052_16y4m_1.wav"
 # AUDIO_PATH = "audio_samples/ravi_inva.wav"

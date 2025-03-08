@@ -205,3 +205,143 @@ class DiarizationService:
                 line = f"{seg['speaker']} [{seg['start']:.2f}-{seg['end']:.2f}]: {seg['text']}\n"
                 f.write(line)
                 print(line, end='')
+    
+
+
+    @staticmethod
+    def word_level_alignment(whisper_segments: List[Dict], diar_segments: List[Dict]) -> List[Dict]:
+        """
+        Пробегаемся по всем словам из Whisper и сопоставляем их с интервами NeMo.
+        Возвращает список сегментов (start, end, text, speaker), уже «разрезанных» по говорящему.
+        """
+
+        # Предполагаем, что diar_segments = [{start, end, speaker}, ...], 
+        # отсортировано по start.
+        if not diar_segments:
+            return []
+
+        # Список финальных кусков
+        results = []
+
+        # Индекс NeMo-интервала
+        nemo_idx = 0
+        total_diar = len(diar_segments)
+        cur_diar = diar_segments[nemo_idx]
+
+        for seg in whisper_segments:
+            for w in seg.get("words", []):
+                w_start = w["start"]
+                w_end   = w["end"]
+
+                # Двигаем индекс NeMo, пока текущее слово не попадет в нужный интервал
+                while nemo_idx < total_diar and w_start >= cur_diar["end"]:
+                    # перешли к следующему интервалу
+                    nemo_idx += 1
+                    if nemo_idx < total_diar:
+                        cur_diar = diar_segments[nemo_idx]
+                    else:
+                        break
+
+                if nemo_idx >= total_diar:
+                    # Вышли за все интервалы NeMo
+                    break
+
+                # Теперь проверяем, пересекается ли слово с cur_diar
+                if w_end <= cur_diar["end"]:
+                    # Полностью лежит в этом интервале
+                    results.append({
+                        "speaker": cur_diar["speaker"],
+                        "start": w_start,
+                        "end": w_end,
+                        "text": w["word"]
+                    })
+                else:
+                    # Считаем, где оно «длиннее»:
+                    overlap_with_current = cur_diar["end"] - w_start  # часть слова внутри этого интервала
+                    word_duration = w_end - w_start
+
+                    # overlap_with_next = (w_end - cur_diar["end"])  # часть слова внутри следующего интервала
+                    # Однако, если у нас идет цепочка интервалов, нужно аккуратно взять следующий индекс (nemo_idx+1),
+                    # и проверить, не вышли ли мы за пределы массива diar_segments.
+
+                    # Для простоты — если overlap_with_current >= (word_duration / 2),
+                    # то считаем слово целиком текущему спикеру, иначе — следующему
+                    if overlap_with_current >= (word_duration / 2):
+                        # отдать слово текущему спикеру
+                        results.append({
+                            "speaker": cur_diar["speaker"],
+                            "start": w_start,
+                            "end": w_end,
+                            "text": w["word"]
+                        })
+                    else:
+                        # переходим к следующему интервалу
+                        nemo_idx += 1
+                        if nemo_idx < total_diar:
+                            cur_diar = diar_segments[nemo_idx]
+                            # отдаем слово уже туда
+                            results.append({
+                                "speaker": cur_diar["speaker"],
+                                "start": w_start,
+                                "end": w_end,
+                                "text": w["word"]
+                            })
+                        else:
+                            # уже нет интервалов
+                            results.append({
+                                "speaker": "UNK",
+                                "start": w_start,
+                                "end": w_end,
+                                "text": w["word"]
+                            })
+        
+        return results
+
+
+
+    @staticmethod
+    def merge_word_level_results(word_level_segments: List[Dict], max_silence: float = 0.8) -> List[Dict]:
+        """
+        Принимает список {speaker, start, end, text} (каждый ~ одно слово)
+        и склеивает подряд идущие слова одного спикера, если пауза между 
+        ними меньше max_silence.
+        Возвращает список более крупных сегментов.
+        """
+        if not word_level_segments:
+            return []
+
+        merged = []
+        prev = None
+
+        for w in word_level_segments:
+            if prev is None:
+                prev = {
+                    "speaker": w["speaker"],
+                    "start": w["start"],
+                    "end": w["end"],
+                    "text": w["text"]
+                }
+                continue
+
+            # Если тот же спикер и небольшая пауза
+            if (w["speaker"] == prev["speaker"]) and (w["start"] - prev["end"] <= max_silence):
+                # "дописываем" слово
+                prev["end"] = w["end"]
+                prev["text"] = prev["text"] + " " + w["text"]
+            else:
+                # заканчиваем предыдущий, начинаем новый
+                merged.append(prev)
+                prev = {
+                    "speaker": w["speaker"],
+                    "start": w["start"],
+                    "end": w["end"],
+                    "text": w["text"]
+                }
+
+        if prev:
+            merged.append(prev)
+
+        return merged
+
+
+    

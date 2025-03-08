@@ -1,0 +1,14 @@
+speaker_0 [0.00-2.22]:  yeah  good  morning
+speaker_1 [2.22-6.42]:  mr  harris  uh  before  we  get  started  can  i  confirm  your  birthday  uh
+speaker_0 [6.42-12.06]:  yeah  sure  um  so  my  birthday  is  november  3rd  1987  great
+speaker_1 [12.06-15.08]:  great  so  um  how  can  i  help  you  today  yeah
+speaker_0 [15.08-28.20]:  look  um  basically  i'm  just  uh  experiencing  severe  pain  in  my  kind  of  like  lower  back  and  also  abdomen  um  it's  been  happening  for  the  last  couple  of  days  and  uh  it
+speaker_0 [29.04-33.64]:  Kind  of  comes  and  goes,  but  when  it's  there,  it's  really,  really  bad  and  painful.
+speaker_0 [34.80-42.18]:  I'm  also  feeling  nauseous  and  I  guess  most  scarily  of  all,  I  noticed  some  blood  in  my  urine.
+speaker_0 [43.22-45.98]:  Yeah,  I'm  kind  of  worried  about  that.  Yeah,
+speaker_1 [46.02-61.04]:  that's  definitely  concerning.  So  let  me  ask  you  a  few  questions.  Have  you  experienced  any  urinary  changes  such  as...  uh  you  know  frequency  or  urgency  or  any  kind  of  difficulty  passing  urine  um
+speaker_0 [61.04-74.78]:  no  not  not  really  i  mean  i've  noticed  that  my  urine  has  the  output  output  has  slightly  decreased  but  yeah  no  difficulty  or  pain  nothing  okay
+speaker_1 [74.78-80.18]:  um  have  you  ever  ex  uh  had  a  similar  episode  in  the  past
+speaker_0 [81.79-86.85]:  Oh,  no,  no.  Uh,  this  is  the  first  time  I  would  have  remembered  if  I  had  something  like  this  before.  Oh,
+speaker_1 [86.89-97.33]:  I  see.  Um,  have  you,  has  there  been  any  recent  trauma  or  injury  to  your,  your  back  or  abdomen  or  anything  in  your,  in  your  midsection?
+speaker_0 [98.07-105.95]:  No,  not  really,  doctor.  I,  I  haven't  had  any,  no,  I  haven't  had  any  recent  injuries.  Um,

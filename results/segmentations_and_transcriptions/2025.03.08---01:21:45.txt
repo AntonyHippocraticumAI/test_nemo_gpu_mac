@@ -1,0 +1,35 @@
+speaker_1 [1.81-2.87]:  Hello,  Amy.  I'm
+speaker_0 [2.87-4.13]:  Dr.  Jones.  How  are  you  doing  today?
+speaker_0 [6.19-7.05]:  I'm  okay,  but
+speaker_1 [7.05-8.97]:  it  hurts  when  I  go  to  the  bathroom  when  I  pee.
+speaker_1 [10.37-11.45]:  That's  called  dysuria
+speaker_0 [11.45-13.53]:  and  it's  pretty  common.  When  did  this
+speaker_1 [13.53-13.79]:  start?
+speaker_1 [14.59-15.53]:  Two  days  ago.
+speaker_0 [16.61-20.07]:  Have  you  taken  anything  for  it?  I  tried  some  Tylenol
+speaker_1 [20.07-21.87]:  and  drank  cranberry  juice.  It  helped.
+speaker_0 [23.07-24.17]:  Have  you  had  this  before?
+speaker_0 [25.13-27.19]:  Yes,  I  had  this  several  years  ago
+speaker_1 [27.19-28.71]:  before  you  were  my  doctor.
+speaker_0 [29.80-31.50]:  Do  you  remember  about  what  year  that  was?
+speaker_1 [32.32-34.42]:  I  think  it  was  2018.
+speaker_0 [35.94-40.62]:  Okay.  How  was  it  treated  back  then?  The  clinic  gave  me  an
+speaker_1 [40.62-43.32]:  antibiotic  Bactrim  and  that  made  it  better.
+speaker_0 [44.04-46.56]:  Great.  Is  there  any  chance  that  you're  pregnant?
+speaker_1 [47.34-49.82]:  I  use  protection,  but  there's  always  a  chance,
+speaker_0 [49.88-50.16]:  I  guess.
+speaker_0 [51.16-52.90]:  So  when  was  your  last  menstrual  period?
+speaker_1 [53.82-54.74]:  Three  weeks  ago.
+speaker_1 [55.94-56.42]:  Okay.
+speaker_1 [60.84-72.30]:  Have  you  had  any  vomiting,  nausea,  abdominal  pain,  back  pain,  shortness  of  breath,  blood  in  your  urine,  constipation,  diarrhea,  or
+speaker_0 [72.30-76.48]:  skin  rashes?  Yes,  I've  had  abdominal  pain
+speaker_1 [76.48-77.00]:  down  low.
+speaker_1 [78.00-80.28]:  And  any  vaginal  discharge  or  drainage
+speaker_0 [80.28-81.30]:  or  painful  intercourse?
+speaker_1 [81.56-81.92]:  No.
+speaker_1 [82.80-84.90]:  Okay.  Do  you  have  any  other  problems  that  you'd
+speaker_0 [84.90-85.56]:  like  me  to  address?
+speaker_1 [86.14-86.70]:  No.
+speaker_1 [88.43-92.49]:  I  would  like  to  do  a  simple  physical  exam  and  have  you  give  us  a  urine  sample.
+speaker_1 [93.29-100.55]:  I  will  order  both  a  pregnancy  test  and  a  urine  test  and  that  we  will  do  now  and  determine  treatment  when  we  have  the  results.
+speaker_0 [100.75-101.51]:  Does  that  sound  okay

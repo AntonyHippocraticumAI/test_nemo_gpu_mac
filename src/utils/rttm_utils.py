@@ -12,7 +12,7 @@ class RttmUtils:
 
 
     def check_the_results_of_diarization(self, file_name: str):
-        rttm_path = os.path.join(f"nemo_diar_temp/diar_output/pred_rttms/{file_name}")
+        rttm_path = os.path.join(f"nemo_diar_temp/diar_output/pred_rttms/{file_name + '.rttm'}")
         if not os.path.isfile(rttm_path):
             logger.error(f"RTTM not found at {rttm_path}. Diarization failed or config error.")
             raise

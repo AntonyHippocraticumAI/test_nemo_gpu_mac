@@ -1,0 +1,44 @@
+speaker_1 [0.00-5.20]:  What  about  when  you  play  football?  Do  you  play  for  a  team  or  do  you  just  play  with  your  friends?  We
+speaker_0 [5.20-12.26]:  play  on  a  team.  I'm  on  the  A  team  and  the  other  team  is  on  the  B  team.  And
+speaker_1 [12.26-15.22]:  where  do  you  play?  What  position  do  you  play?
+speaker_0 [17.14-21.54]:  We  play  in  the  football  stadium.  And
+speaker_1 [21.54-25.48]:  where  on  the  pitch  do  you  play?  Do  you  score  goals  or  are  you  in  goal?
+speaker_1 [26.54-26.98]:  I'm
+speaker_0 [26.98-27.50]:  in  goal.
+speaker_1 [28.20-36.38]:  You're  in  goal.  And  Thomas  has  got  a  goalkeeper's  top  on  as  well.  Is  he  a  goalkeeper  as  well?  Mm -mm.  He's  just  wearing  a  top.  Yeah.
+speaker_0 [36.48-36.90]:  And
+speaker_1 [36.90-39.68]:  what  about  swimming?  Do  you  go  swimming  often?  Yeah.
+speaker_0 [40.38-41.48]:  Every  week.
+speaker_0 [45.10-45.54]:  Is
+speaker_1 [45.54-47.28]:  that  with  the  school  or  do  you  go  with
+speaker_0 [47.28-51.16]:  your  friends?  I  go  with  my  friend.  And
+speaker_1 [51.16-51.64]:  where  do  you  go?
+speaker_0 [52.74-53.18]:  Um...
+speaker_1 [57.04-63.02]:  and  have  they  got  got  some  slides  and  things  like  that  or  do  you  just  do  proper  swimming  swimming
+speaker_0 [64.36-67.88]:  they  have  slides  and  things  things  things  did
+speaker_1 [67.88-69.46]:  you  go  on  there  tell  me  about  the  slide
+speaker_0 [72.75-85.55]:  My  favourite  one  is  the  big  long  one.  It  takes  three  minutes  to  get  into  the  water.  Right  from
+speaker_1 [85.55-88.01]:  the  top?  It  takes  three  minutes?
+speaker_0 [89.53-99.81]:  It's  like,  pretend  the  building's  that  big,  yeah.  It's  like,  pretend  you're  all  the  way  up  there,  yeah.
+speaker_0 [102.27-111.47]:  top  floor,  yeah  you  have  to  climb  all  the  way  down  into  the  pool.
+speaker_1 [111.85-114.87]:  So  what  do  you  think  about  when  you're  going  down?  I
+speaker_0 [114.87-121.39]:  just  relax  until  I  go  down  in  the  water.
+speaker_1 [121.61-123.25]:  Aren't  you  scared?  How
+speaker_0 [123.25-124.31]:  fast
+speaker_1 [124.31-124.73]:  are  you  going?
+speaker_0 [125.01-125.69]:  Hmm?  How
+speaker_1 [125.69-126.45]:  fast  are  you  going?
+speaker_0 [131.16-135.26]:  like  I  stop  it  and  then  I  walk  down.
+speaker_0 [136.58-137.10]:  You
+speaker_1 [137.10-137.86]:  walk  down?
+speaker_0 [138.20-139.72]:  Yeah  that's  the  thing.  How
+speaker_1 [139.72-143.92]:  do  you  walk  down,  because  it's  a  narrow  thing,  how  do  you  walk  down?  Like
+speaker_0 [143.92-152.32]:  I  bend  down  and  I  hold  onto  some  things  on  the  top  and  I  walk.  So
+speaker_1 [152.32-155.94]:  what  happens  if  somebody's  coming  really  fast  behind  you,  they're  going  to  catch  you  up?
+speaker_0 [158.12-163.26]:  I  go,  I  go,  I  go  wait  until  I  go  around.  And
+speaker_1 [163.26-169.66]:  then  you  can  let  go  and  slide  again?  Yeah.  And  you  fancy  it  sliding  again  and  again.  Scared  me.  And  how  far  can  you  swim?
+speaker_0 [170.92-176.32]:  I  can  swim  six  metres.
+speaker_1 [177.44-185.78]:  Six  metres?  What's  that  in  yards?  About  seven,  eleven  yards.  Right.  And  is  that  like  a  width  of  the  pool  or  is  that,  can  you  swim  right  across  the  pool
+speaker_0 [185.78-191.53]:  or?  I  can.  I  can  swim  right,  right  across  it.  Right
+speaker_1 [191.53-195.27]:  across  it?  Sound  like  you're  a  very  good  swimmer.
+speaker_0 [195.75-198.63]:  There,  there  is  only  one.

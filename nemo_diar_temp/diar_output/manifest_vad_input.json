@@ -1,3 +1,4 @@
-{"audio_filepath": "output.wav", "duration": 50, "label": "infer", "text": "_", "offset": 0}
-{"audio_filepath": "output.wav", "duration": 50.15, "label": "infer", "text": "_", "offset": 49.85}
-{"audio_filepath": "output.wav", "duration": 6.966999999999993, "label": "infer", "text": "_", "offset": 99.85}
+{"audio_filepath": "audio_samples/M_0234_9y9m_1.wav", "duration": 50, "label": "infer", "text": "_", "offset": 0}
+{"audio_filepath": "audio_samples/M_0234_9y9m_1.wav", "duration": 50.15, "label": "infer", "text": "_", "offset": 49.85}
+{"audio_filepath": "audio_samples/M_0234_9y9m_1.wav", "duration": 50.15, "label": "infer", "text": "_", "offset": 99.85}
+{"audio_filepath": "audio_samples/M_0234_9y9m_1.wav", "duration": 37.18675000000001, "label": "infer", "text": "_", "offset": 149.85}
